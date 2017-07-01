@@ -1,0 +1,5 @@
+Construct a new primary key.
+This implementation uses the time on the computer to
+create a new 'unique' id. 
+NOTE: This is not bullet proof !
+PrimaryKeyTwo constructor comment.

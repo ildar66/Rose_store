@@ -1,0 +1,9 @@
+This class models real world iBank.
+As controller, it interacts with the other main classes
+in this package.
+@see Bank
+@see IClient
+@see Money
+@see // дописать после :)
+Creation date: (18.09.2002 16:07:46)
+@author: Shafigullin Ildar

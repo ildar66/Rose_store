@@ -1,0 +1,3 @@
+Specific implementation for toString().
+@return a string representation of the receiver
+

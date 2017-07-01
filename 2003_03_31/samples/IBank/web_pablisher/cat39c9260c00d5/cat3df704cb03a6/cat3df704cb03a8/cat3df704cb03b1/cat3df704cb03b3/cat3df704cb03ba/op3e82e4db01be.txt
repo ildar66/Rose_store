@@ -1,0 +1,7 @@
+Insert the method's description here.
+Creation date: (28.01.2003 14:38:52)
+@return java.util.Vector
+@param anDoc_type int
+@exception com.overstar.ildar.ibank.model.exceptions.PersistenceException The exception description.
+@exception java.lang.IllegalStateException The exception description.
+@exception com.overstar.ildar.ibank.model.exceptions.InvalidDocumentStatusException The exception description.

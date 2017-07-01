@@ -1,0 +1,5 @@
+Uses the equals implementation of the underlying String.
+Needed for use in HashMap.
+Creation date: (04.09.2002 18:09:48)
+@return boolean
+@param anObject java.lang.Object

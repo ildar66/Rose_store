@@ -1,0 +1,8 @@
+Insert the method's description here.
+Creation date: (24.01.2003 11:45:06)
+@param aINN java.lang.String
+@param aName java.lang.String
+@param aBill java.lang.String
+@param aBank_bic java.lang.String 
+@param aBank_name java.lang.String
+@param aBank_acc java.lang.String

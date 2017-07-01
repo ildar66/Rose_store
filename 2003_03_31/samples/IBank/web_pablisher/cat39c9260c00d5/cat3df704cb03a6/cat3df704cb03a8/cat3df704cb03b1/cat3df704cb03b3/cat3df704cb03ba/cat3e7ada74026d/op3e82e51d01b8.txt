@@ -1,0 +1,9 @@
+Recipient constructor comment.
+@param anId
+@param anCLIENT_ID
+@param anINN
+@param anNAME
+@param anBIC
+@param anBILL
+@param anCOMMENTS
+

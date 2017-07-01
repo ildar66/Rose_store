@@ -1,0 +1,2 @@
+BankAccount constructor comment.
+по умолчанию currency = "RUR"

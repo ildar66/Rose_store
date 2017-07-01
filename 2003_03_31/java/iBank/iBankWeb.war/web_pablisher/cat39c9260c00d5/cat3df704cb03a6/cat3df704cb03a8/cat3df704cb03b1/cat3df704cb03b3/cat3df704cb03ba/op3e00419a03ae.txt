@@ -1,0 +1,4 @@
+Get the list of recipients that are associated with the current IClient.
+Creation date: (24.09.2002 15:28:10)
+@return java.util.Vector
+@exception java.lang.IllegalStateException The IBank is not in the proper state

@@ -1,0 +1,5 @@
+Uses the hashCode of the underlying String.
+Needed for use in HashMap.
+Creation date: (30.10.2002 15:48:45)
+@return int
+

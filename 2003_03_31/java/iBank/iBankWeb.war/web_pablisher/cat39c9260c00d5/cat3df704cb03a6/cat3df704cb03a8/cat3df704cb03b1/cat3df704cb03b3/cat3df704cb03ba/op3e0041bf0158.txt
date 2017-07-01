@@ -1,0 +1,1 @@
+SettlementAccount constructor comment.

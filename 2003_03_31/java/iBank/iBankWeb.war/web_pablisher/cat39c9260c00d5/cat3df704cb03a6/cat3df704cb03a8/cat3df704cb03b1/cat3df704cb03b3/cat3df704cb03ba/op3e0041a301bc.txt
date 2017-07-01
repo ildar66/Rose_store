@@ -1,0 +1,4 @@
+Insert the method's description here.
+Creation date: (24.09.2002 16:09:21)
+@return java.util.Vector
+@exception com.overstar.ildar.ibank.model.PersistenceException The exception description.

@@ -1,0 +1,10 @@
+Insert the method's description here.
+Creation date: (18.10.2002 15:31:18)
+@param anDoc_type
+@param anFromDate
+@param anToDate
+@param anStatuses
+@param anSortBy
+@return java.util.Vector
+@throws com.overstar.ildar.ibank.model.PersistenceException
+

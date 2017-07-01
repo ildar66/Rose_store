@@ -1,0 +1,141 @@
+BODY {
+	FONT: 8pt verdana,arial,helvetica
+}
+TABLE {
+	FONT: 8pt verdana,arial,helvetica
+}
+TD {
+	FONT: 8pt verdana,arial,helvetica
+}
+TH {
+	FONT: 8pt verdana,arial,helvetica
+}
+H5 {
+	FONT: 8pt verdana,arial,helvetica
+}
+P {
+	FONT: 8pt verdana,arial,helvetica
+}
+DIV {
+	FONT: 8pt verdana,arial,helvetica
+}
+INPUT {
+	FONT-SIZE: 9pt
+}
+SELECT {
+	FONT-SIZE: 9pt
+}
+TEXTAREA {
+	FONT-SIZE: 9pt
+}
+BODY {
+	MARGIN: 0px
+}
+P {
+	MARGIN-TOP: 1em; MARGIN-BOTTOM: 1em
+}
+FORM {
+	MARGIN: 0px
+}
+H5 {
+	MARGIN-TOP: 1em; FONT-WEIGHT: bold; MARGIN-BOTTOM: 1em; WIDTH: 100%; COLOR: #970026; BORDER-BOTTOM: #970026 1px solid
+}
+A1:link {
+	COLOR: blue
+}
+A1:visited {
+	COLOR: red
+}
+A1:active {
+	COLOR: lime
+}
+.menu {
+	PADDING-TOP: 2pt
+}
+.toptitle {
+	FONT: bold 12pt times new roman, times, serif; COLOR: white
+}
+.menu A {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; WIDTH: 100%; COLOR: black; LINE-HEIGHT: 16px; FONT-FAMILY: MS Sans Serif,Geneva; TEXT-DECORATION: none
+}
+.menu A:hover {
+	COLOR: gray
+}
+.menu A.current {
+	COLOR: #970026
+}
+A.topmenu {
+	FONT: bold 8pt verdana,arial,helvetica; COLOR: white; TEXT-DECORATION: none
+}
+A.topmenu:hover {
+	COLOR: #ffbc00
+}
+.title1 {
+	PADDING-RIGHT: 2pt; BACKGROUND-POSITION: left bottom; PADDING-LEFT: 2pt; FONT-WEIGHT: bold; FONT-SIZE: 8pt; BACKGROUND-IMAGE: url(..\images\tiling.gif); PADDING-BOTTOM: 2pt; COLOR: #787979; PADDING-TOP: 2pt; BACKGROUND-REPEAT: repeat-x; FONT-FAMILY: MS Sans Serif,Geneva
+}
+.title {
+	PADDING-RIGHT: 2pt; PADDING-LEFT: 2pt; FONT-WEIGHT: bold; FONT-SIZE: 8pt; PADDING-BOTTOM: 2pt; COLOR: #787979; PADDING-TOP: 2pt; BORDER-BOTTOM: #acadae 1px solid; FONT-FAMILY: MS Sans Serif,Geneva
+}
+.body {
+	MARGIN: 5px
+}
+.inputbar {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; WIDTH: 99%; BORDER-BOTTOM: 0px
+}
+.inputbar TD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.inputbar .label {
+	PADDING-RIGHT: 2px; FONT-WEIGHT: bold
+}
+.inputbar .button {
+	VERTICAL-ALIGN: text-top; TEXT-ALIGN: right
+}
+.grid {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; WIDTH: 99%; BORDER-BOTTOM: 0px
+}
+.grid TD {
+	BACKGROUND-COLOR: #eee
+}
+.grid TH {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; PADDING-BOTTOM: 4px; COLOR: white; PADDING-TOP: 4px; BACKGROUND-COLOR: #acadae
+}
+.gridtitle {
+	FONT-WEIGHT: bold; WIDTH: 100%; COLOR: #970026; BORDER-BOTTOM: #970026 1px solid
+}
+.gridfoot {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 2px; BORDER-TOP: 0px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; MARGIN-LEFT: -2px; BORDER-LEFT: 0px; WIDTH: 99%; PADDING-TOP: 2px; BORDER-BOTTOM: 0px
+}
+TH A:link {
+	COLOR: white; TEXT-DECORATION: none
+}
+TH A:visited {
+	COLOR: white; TEXT-DECORATION: none
+}
+TH A:active {
+	TEXT-DECORATION: underline
+}
+TH A:hover {
+	TEXT-DECORATION: underline
+}
+.docbg {
+	BACKGROUND-COLOR: black
+}
+.doclayout TD {
+	FONT: 8pt verdana,arial,helvetica; BACKGROUND-COLOR: #eee
+}
+.ref {
+	FONT-WEIGHT: bold; CURSOR: hand
+}
+.tips1 {
+	BORDER-RIGHT: #acadae 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #acadae 1px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; BORDER-LEFT: #acadae 1px solid; WIDTH: 100%; PADDING-TOP: 3px; BORDER-BOTTOM: #acadae 1px solid
+}
+.disabled {
+	BACKGROUND-COLOR: transparent
+}
+.negative {
+	COLOR: red
+}
+.bullnum {
+	FONT-WEIGHT: bold; COLOR: #970026
+}

@@ -1,0 +1,10 @@
+This finder will search for the Recipient with the given
+primary key and return it.
+Creation date: (23.09.2002 17:05:59)
+@return com.overstar.ildar.ibank.model.Recipient
+@param anId com.overstar.ildar.ibank.model.Recipient.RecipientPK
+@return Recipient
+@throws com.overstar.ildar.ibank.model.PersistenceException
+@exception com.overstar.ildar.ibank.model.PersistenceException The exception 
+description.
+

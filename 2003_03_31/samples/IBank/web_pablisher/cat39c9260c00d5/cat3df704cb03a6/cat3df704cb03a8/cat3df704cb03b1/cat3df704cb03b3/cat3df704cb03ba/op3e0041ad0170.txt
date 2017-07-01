@@ -1,0 +1,3 @@
+Money constructor comment.
+@param val java.math.BigInteger
+

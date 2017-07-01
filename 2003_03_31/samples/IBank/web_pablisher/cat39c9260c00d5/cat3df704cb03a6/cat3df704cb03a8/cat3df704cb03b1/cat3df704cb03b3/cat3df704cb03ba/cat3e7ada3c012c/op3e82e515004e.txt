@@ -1,0 +1,4 @@
+Return the PaymentSelect property value.
+@return com.ibm.ivj.db.uibeans.Select
+WARNING: THIS METHOD WILL BE REGENERATED.
+

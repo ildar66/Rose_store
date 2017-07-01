@@ -1,0 +1,52 @@
+Menu Tools
+{
+	Separator
+	Menu "Java / J2EE"
+	{
+		option "&Project Specification..."
+		{
+			InterfaceEvent Java EditJavaProperties
+		}
+		option "&Syntax Check"
+		{
+			enable %selected_items.empty:false
+			InterfaceEvent Java AIRunSyntaxChecker
+		}
+		Separator		
+
+		option "&Edit Code..."		
+		{
+			enable %selected_items:empty:false
+			InterfaceEvent Java AIRunBrowseHeader
+		}		
+		option "&Generate Code"
+		{
+			enable %selected_items:empty:false
+			InterfaceEvent Java AIRunGenerator
+		}
+		option "&Reverse Engineer..."
+		{
+			InterfaceEvent Java AIRunAnalyzer
+		}
+		Separator
+
+		option "New EJB..."
+		{
+			InterfaceEvent Java J2EE_OnEJBEvent
+		}
+		option "New Servlet..."
+		{
+			InterfaceEvent Java J2EE_OnServletEvent	
+		}
+		Separator
+
+		option "Generate EJB-JAR File"
+		{
+			InterfaceEvent Java J2EE_OnGenerateJar
+		}
+		option "Generate WAR File"
+		{
+			InterfaceEvent Java J2EE_OnGenerateWar
+		}
+	}
+}

@@ -1,0 +1,3 @@
+Insert the method's description here.
+Creation date: (31.10.2002 13:18:28)
+@param newId com.overstar.ildar.ibank.model.BankAccount.BankAccountPK

@@ -1,0 +1,424 @@
+' -----------------------------------------------------------------------------
+'             Copyright (c) 2000, Rational Software Corporation
+'                              Version 1.0.3
+' 			 Published 9/27/2000 to http://www.rational.com/rose
+'
+' This software is supplied "as-is", as a sample to demonstrate the ability
+' to generate W3C compliant XML-Schema from a Rational Rose DTD Model. This 
+' script is not supported by Rational Software and is provided as an 
+' experimental tool to see how XML-Schema is formed and it's relationship to 
+' the existing XML 1.0 DTD standard. This script is Not part of any product 
+' engineering efforts and should not in any way be taken to reflect 
+' capabilities or directions for the Rational Rose Product.
+'
+' Rational Software does not feel that at this time XML-Schema is ready for 
+' production applications as the official W3C documentation is still at a 
+' working-draft stage. However XML-Schema will become important and a number 
+' of our customers would like to be able to see how an XML-Schema could be 
+' generated from a DTD, or from a UML model. 
+'
+' To execute place in the "Rose\Scripts" directory, then from the tools menu
+' select "Open Script..." and select this file. Once open you need to select
+' the DTD component (from the Component View) that you wish to translate then
+' execute the script from the toolbar, "Debugger" menu or with F5. Errors 
+' are reported to the Log window and a message will pop up to inform you if
+' errors were found.
+'
+' For comments or issues, please contact rose_forum@rational.com
+' -----------------------------------------------------------------------------
+Private ErrorCount As Integer
+Private DoIncludes As Integer
+Private DoTypes As Integer
+
+Private Sub TranslateNotation(theClass As Class)
+	Dim sysName, pubName As String
+
+	sysName = theClass.GetPropertyValue("XML_DTD", "Notation_SystemID")
+	If Not sysName = "" Then
+		sysName = " system = '" + sysName + "' "
+	End If
+
+	pubName = theClass.GetPropertyValue("XML_DTD", "Notation_PublicID")
+	If Not pubName = "" Then
+		pubName = " system = '" + pubName + "' "
+	End If
+
+	Print #1, ""
+	If Not theClass.Documentation = "" Then
+		Print #1, "    <!-- " + theClass.Documentation + " -->"
+	End If
+	Print #1, "    <notation name = '" + theClass.Name + "' " + sysName + pubName + " />"
+End Sub
+
+Private Sub TranslateEntity(theClass As Class)
+	Dim isParameter As String
+	Dim isExternal As String
+	Dim param As String
+	Dim doneSomething As Boolean
+
+	doneSomething = false
+
+	isParameter = theClass.GetPropertyValue("XML_DTD", "ParameterEntity")
+	isExternal = theClass.GetPropertyValue("XML_DTD", "ExternalEntity")
+
+	Print #1, ""
+	If Not theClass.Documentation = "" Then
+		Print #1, "    <!-- " + theClass.Documentation + " -->"
+	End If
+	Select Case isParameter + isExternal
+		Case "FalseFalse"
+			' do nothing
+		Case "FalseTrue"
+			' do nothing
+		Case "TrueFalse"
+			If DoTypes = 1 Then
+				param = LTrim$(Right(theClass.Name, Len(theClass.Name) - 1))
+				Print #1, "    <complexType name = '" + param + "' /> <!-- " + theClass.GetPropertyValue("XML_DTD", "InternalValue") + " -->"
+				doneSomething = true
+			End If
+		Case "TrueTrue"
+			If DoIncludes = 1 Then
+				param = LTrim$(Right(theClass.Name, Len(theClass.Name) - 1))
+				Print #1, "    <include id = '" + param + "' schemaLocation = '" + theClass.GetPropertyValue("XML_DTD", "Entity_SystemID") + "'/>"
+				doneSomething = true
+			End If
+	End Select
+
+	If doneSomething = false Then
+		Print #1, "    <!-- !ENTITY " + theClass.Name + " '" + theClass.GetPropertyValue("XML_DTD", "InternalValue") + "' -->"
+		RoseApp.WriteErrorLog "DTD_XSD Warning: Ignoring '" + theClass.Name + "', not doing entities right now"
+		ErrorCount = ErrorCount + 1
+	End If
+End Sub
+
+Private Function TranslateMultiplicity(theRole As Role) As String
+	Dim Buffer As String
+
+	Select Case theRole.Cardinality
+		Case ""
+		Case "0..1"
+			Buffer = "minOccurs = '0' maxOccurs = '1'"
+		Case "0..*", "0..n"
+			Buffer = "minOccurs = '0' maxOccurs = 'unbounded'"
+		Case "1..*", "1..n"
+			Buffer = "minOccurs = '1' maxOccurs = 'unbounded'"
+		Case Else
+			RoseApp.WriteErrorLog "DTD_XSD Warning: Ignoring Cardinality '" + theRole.Cardinality + "', it does not match a legal value for a DTD"
+			ErrorCount = ErrorCount + 1
+	End Select
+
+	TranslateMultiplicity = Buffer
+End Function
+
+Private Sub TranslateGroup(theClass As Class)
+	Dim theAssociations As AssociationCollection
+	Dim anAssociation As Association
+	Dim thisRole As Role
+	Dim otherRole As Role
+	Dim otherClass As Class
+	Dim order, multiplicity, group As String
+	    
+	Select Case theClass.Stereotype
+		Case "DTDSequenceGroup"
+			group = "sequence"
+		Case "DTDChoiceGroup"
+			group = "choice"
+		Case Else
+			RoseApp.WriteErrorLog "DTD_XSD Error: '" + theClass.Name + "' cannot be translated, it does not have a valid DTD stereotype (" + aClass.Stereotype + ")"
+			ErrorCount = ErrorCount + 1
+	End Select
+
+	Set theAssociations = theClass.GetAssociations()
+
+	For i% = 1 To theAssociations.Count
+		Set anAssociation = theAssociations.GetAt (i%)
+		Set thisRole = anAssociation.GetCorrespondingRole(theClass)
+		If thisRole.Navigable Then
+			' Big assumption! in our reverse engineering we create a nested class
+			' for each group and there should be one and only one association *to* 
+			' the group from it's parent, all other associations go from the group
+			' to other elements. 
+			multiplicity = TranslateMultiplicity(thisRole)
+			order = thisRole.Constraints
+		End If		
+	Next i%
+
+	Print #1, "            <" + group + " " + multiplicity + " > <!-- " + order + " -->"
+
+	' ***
+	' This does not! maintain the order using the constraints.
+	For i% = 1 To theAssociations.Count
+		Set anAssociation = theAssociations.GetAt (i%)
+
+		Set otherRole = anAssociation.getOtherRole(theClass)
+		If otherRole.Navigable Then
+			Set otherClass = otherRole.Class
+			If Not otherClass.Name = "#PCDATA" Then
+				If otherClass.Stereotype = "DTDSequenceGroup" Or otherClass.Stereotype = "DTDChoiceGroup" Then
+					' This has to be recursive to handle nested groups
+					TranslateGroup(otherClass)
+				Else
+					order = otherRole.Constraints
+					Print #1, "                <element ref = '" + otherClass.Name + "' " + TranslateMultiplicity(otherRole) + " /> <!-- " + order + " -->"
+				End If
+			End If
+		End If
+	Next i%
+
+	Print #1, "            </" + group + ">"
+End Sub
+
+Private Function IsMixed(theClass As Class) As String
+	Dim theGroups As ClassCollection
+	Dim aGroup As Class
+	Dim theAssociations As AssociationCollection
+	Dim anAssociation As Association
+	Dim thisRole As Role
+	Dim otherRole As Role
+	Dim otherClass As Class
+
+	IsMixed = "No"
+
+	' ***
+	' Checking for mixed content, this is complex because our actual content
+	' is two levels down, behind the groups.
+
+	Set theGroups = theClass.GetNestedClasses()
+
+	For i% = 1 To theGroups.Count
+		Set aGroup = theGroups.GetAt (i%)
+
+		Set theAssociations = aGroup.GetAssociations()
+		
+		For j% = 1 To theAssociations.Count
+			Set anAssociation = theAssociations.GetAt (i%)
+
+			Set otherRole = anAssociation.getOtherRole(theClass)
+			If otherRole.Navigable Then
+				Set otherClass = otherRole.Class
+				If otherClass.Stereotype = "DTDSequenceGroup" Or otherClass.Stereotype = "DTDChoiceGroup" Then
+					IsMixed = IsMixed(otherClass)
+				Else
+					If otherClass.Name = "#PCDATA" Then
+					    IsMixed = "Yes"
+						Exit Function
+					End If
+				End If
+			End If
+		Next j%
+	Next i%
+End Function
+
+Private Sub TranslateElement(theClass As Class)
+	Dim theClasses As ClassCollection
+	Dim theAttributes As AttributeCollection
+	Dim aClass As Class
+	Dim anAttribute As Attribute
+	Dim content As String
+	Dim attrType As String
+	Dim attrUse As String
+	Dim enumModel As String
+	Dim enumValue As String
+
+	' ***
+	' We use a special place-holder class to signify an element
+	' as having mixed content.
+	If Not theClass.Name = "#PCDATA" Then
+
+		Set theAttributes = theClass.Attributes
+		Set theClasses = theClass.GetNestedClasses()
+
+		Select Case theClass.Stereotype
+			Case "DTDElement"
+				content = "elementOnly"
+			Case "DTDElementPCDATA"
+				content = "textOnly"   
+			Case "DTDElementEMPTY"
+				content = "empty"
+			Case "DTDElementANY"	   
+				content = "any"
+		End Select
+
+		If IsMixed(theClass) = "Yes" Then
+			content = "mixed"
+		End If
+
+		Print #1, ""
+		If Not theClass.Documentation = "" Then
+			Print #1, "    <!-- " + theClass.Documentation + " -->"
+		End If
+		Print #1, "    <element name = '" + theClass.Name + "'>"
+		If content = "any" Then
+			Print #1, "        <complexType>"
+			Print #1, "            <any minOccurs = '0' maxOccurs = 'unbounded' processContents = 'skip' />"
+			Print #1, "            <anyAttribute processContents = 'skip' />"
+		Else
+			Print #1, "        <complexType content = '" + content + "'>"
+		End If
+
+		' ***
+		' This does not! maintain the order using the constraints.
+		For i% = 1 To theClasses.Count
+			Set aClass = theClasses.GetAt (i%)
+
+			Select Case aClass.Stereotype
+				Case "DTDSequenceGroup", "DTDChoiceGroup"
+					TranslateGroup aClass
+				Case Else
+					RoseApp.WriteErrorLog "DTD_XSD Error: '" + aClass.Name + "' cannot be translated, it does not have a valid DTD stereotype (" + aClass.Stereotype + ")"
+					ErrorCount = ErrorCount + 1
+			End Select
+		Next i%	
+
+		For a% = 1 To theAttributes.Count
+			Set anAttribute = theAttributes.GetAt (a%)
+			attrType = anAttribute.Type
+
+			attrUse = anAttribute.GetPropertyValue("XML_DTD", "DefaultDeclType")
+			Select Case attrUse
+				Case "#REQUIRED"
+					attrUse = "use = 'required'"
+				Case "#FIXED"
+					attrUse = "use = 'fixed'"
+				Case "#IMPLIED"
+					attrUse = ""
+			End Select
+
+			If Not anAttribute.initValue = "" Then
+				attrUse = attrUse + " value = '" + anAttribute.initValue + "'"
+			End If
+
+			If left(attrType, 1) = "(" And Right(attrType, 1) = ")" Then
+				' enumerations
+				Print #1, "            <attribute name = '" + anAttribute.Name + "' " + attrUse + ">"
+				Print #1, "                <simpleType base = 'NMTOKEN'>"
+
+				enumModel = Left(attrType, Len(attrType) - 1)
+				enumModel = Right(enumModel, Len(enumModel) - 1)
+				For i% = 1 To ItemCount(enumModel, "|")
+					enumValue = LTrim$(RTrim$(Item$(enumModel, i%,, "|")))
+					Print #1, "                    <enumeration value = '" + enumValue + "' />"
+				Next i%
+
+				Print #1, "                </simpleType>"
+				Print #1, "            </attribute>"
+			Else
+				' other attributes
+				If attrType = "PCDATA" Or attrType = "CDATA" Then
+					attrType = "string"
+				End If
+
+				Print #1, "            <attribute name = '" + anAttribute.Name + "' type = '" + attrType + "' " + attrUse + " />"
+			End If
+		Next a%
+
+		Print #1, "        </complexType>"
+		Print #1, "    </element>"
+	End If
+End Sub
+
+Private Sub TranslateOne(theModule As Module)
+	Dim theClasses As ClassCollection
+	Dim aClass As Class
+	Dim fileName As String
+	Dim dlgReturn As Integer
+
+	fileName = theModule.GetPropertyValue("XML_DTD", "ComponentPath")
+	If Not fileName = "" Then
+		fileName = fileName + "\"
+	End If
+	fileName = fileName + theModule.Name + ".xsd"
+
+Begin Dialog frmTranslate 69,40,247,179,"XML Translation",,,1
+	Text 4,4,184,8,"Translate DTD Model to Schema",.lblTitleTitle,,,ebBold
+	Text 12,16,176,20,"Translate the selected XML_DTD model elements into an XML Schema (April draft) file.",.lblTitleText
+	PushButton 160,160,40,14,"&Finish",.cmdNext
+	CancelButton 204,160,39,14
+	Text 4,48,80,8,"File Name:",.Text1
+	CheckBox 52,64,12,12,"",.chkDoIncludes
+	TextBox 52,44,184,12,.txtFileName
+	Text 64,64,144,20,"Convert system parameter entries to schema inclusions",.Text2
+	CheckBox 52,88,12,12,"",.chkDoTypes
+	Text 64,88,144,20,"Convert internal parameter entries to complex types",.Text3
+	GroupBox -8,32,272,124,"",.GroupBox1
+End Dialog
+
+	Dim transform As frmTranslate
+	transform.txtFileName = fileName
+	transform.chkDoIncludes = 1
+	transform.chkDoTypes = 1
+	dlgReturn = Dialog (transform)
+
+	If dlgReturn > 0 Then
+		DoIncludes = transform.chkDoIncludes
+		DoTypes = transform.chkDoTypes
+
+		Open fileName For Output Access Write Lock Write As #1
+
+		Print #1, "<?xml version ='1.0'?>"
+		Print #1, "<!-- Generated automatically by Rational Rose " + RoseApp.Version + " -->"
+		Print #1, "<!-- Generated on " + Date$() + "  " + Time$() + " -->"
+		Print #1, "<!-- XML-Schema level supported is specified by W3C -->"
+		Print #1, "<!-- http://www.w3.org/TR/2000/WD-xmlschema-1-20000407/ -->"
+		Print #1, "<schema  xmlns = 'http://www.w3.org/1999/XMLSchema'>"
+
+		Set theClasses = theModule.GetAssignedClasses()
+
+		For i% = 1 To theClasses.Count
+			Set aClass = theClasses.GetAt (i%)
+			Select Case aClass.Stereotype
+				Case "DTDElement", "DTDElementPCDATA", "DTDElementANY", "DTDElementEMPTY"
+					TranslateElement aClass
+				Case "DTDSequenceGroup", "DTDChoiceGroup"
+					' Ignore
+				Case "DTDNotation"
+					TranslateNotation aClass
+				Case "DTDEntity"
+					TranslateEntity aClass
+				Case Else
+					RoseApp.WriteErrorLog "DTD_XSD Error: '" + aClass.Name + "' cannot be translated, it does not have a valid DTD stereotype (" + aClass.Stereotype + ")"
+					ErrorCount = ErrorCount + 1
+			End Select
+		Next i%	
+
+		Print #1, "</schema>"
+
+		Close #1
+	End If
+End Sub
+
+Private Sub TranslateAll(theModel As Model)
+	Dim theModules As ModuleCollection
+	Dim aModule As Module
+
+	Set theModules = theModel.GetSelectedModules()
+
+	If theModules.Count > 0 Then
+		For i% = 1 To theModules.Count
+			Set aModule = theModules.GetAt (i%)
+			If aModule.AssignedLanguage = "XML_DTD" Then
+				TranslateOne aModule
+			Else
+				RoseApp.WriteErrorLog "DTD_XSD Error: '" + aModule.Name + "' cannot be translated, it is not a valid DTD module"
+				ErrorCount = ErrorCount + 1
+			End If
+		Next i%	
+	Else
+		RoseApp.WriteErrorLog "DTD_XSD Warning: No DTD components are selected for translation."
+		MsgBox "No DTD components are selected for translation", ebOK, "DTD=>XSD Error"
+	End If
+End Sub
+
+Sub Main
+	ErrorCount = 0
+	DoInclude = 0
+	DoTypes = 0
+
+	RoseApp.WriteErrorLog "[XML_DTD => XML-Schema Translation Started]"
+
+	TranslateAll(RoseApp.CurrentModel)
+
+	If ErrorCount > 0 Then
+		MsgBox "Some errors or warnings were generated translating the model to XML-Schema. Please review the Rose Log Window for details.", ebOK, "DTD=>XSD Error"
+	End If
+End Sub

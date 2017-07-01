@@ -1,0 +1,2 @@
+Constructor taking a description as argument.
+@param aDescriptionStr java.lang.String

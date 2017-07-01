@@ -1,0 +1,8 @@
+Insert the method's description here.
+Creation date: (16.09.2002 17:42:11)
+@return com.overstar.ildar.ibank.model.Bank
+@param anId java.lang.String
+@param anBikStr
+@return Bank
+@throws com.overstar.ildar.ibank.model.exceptions.PersistenceException
+

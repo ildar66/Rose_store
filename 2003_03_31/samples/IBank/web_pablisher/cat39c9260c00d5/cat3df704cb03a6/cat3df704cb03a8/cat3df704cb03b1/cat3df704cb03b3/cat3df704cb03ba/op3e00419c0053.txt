@@ -1,0 +1,4 @@
+Insert the method's description here.
+Creation date: (18.10.2002 15:27:54)
+@param newCurrentDocument com.overstar.ildar.ibank.model.Document
+

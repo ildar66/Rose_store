@@ -1,0 +1,3 @@
+LongLivedCookie constructor comment.
+@param name java.lang.String
+@param value java.lang.String

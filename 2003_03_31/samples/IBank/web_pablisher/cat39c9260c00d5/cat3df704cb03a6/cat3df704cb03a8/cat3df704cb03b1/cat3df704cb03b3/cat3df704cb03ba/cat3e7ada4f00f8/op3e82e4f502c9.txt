@@ -1,0 +1,9 @@
+Store the current BankAccount object in the database. Use the
+Visual Age for Java 4.0 Data Access Beans. If the account already
+exists in the database, update the account record. If the account is
+not in the database, insert it.
+Creation date: (31.10.2002 15:38:19)
+@throws com.overstar.ildar.ibank.model.PersistenceException
+@exception com.overstar.ildar.ibank.model.PersistenceException The exception 
+description.
+

@@ -1,0 +1,5 @@
+Insert the method's description here.
+Creation date: (13.02.2003 14:31:40)
+@return com.overstar.ildar.ibank.model.documents.Accreditive
+@param anDoc_IDStr java.lang.String
+@exception com.overstar.ildar.ibank.model.exceptions.PersistenceException The exception description.

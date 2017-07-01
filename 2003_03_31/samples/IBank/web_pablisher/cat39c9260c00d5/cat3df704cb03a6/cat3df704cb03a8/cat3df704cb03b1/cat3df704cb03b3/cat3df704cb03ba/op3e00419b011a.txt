@@ -1,0 +1,4 @@
+Get the state of the IBank.
+Creation date: (18.09.2002 18:10:41)
+@return com.overstar.ildar.ibank.model.IBank.IBankState
+

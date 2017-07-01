@@ -1,0 +1,3 @@
+Get the IClientReader instance for this IBank.
+Creation date: (18.09.2002 17:57:50)
+@return com.overstar.ildar.ibank.model.IClientReader

@@ -1,0 +1,13 @@
+This finder will search for the IBank with the given
+primary key and return it. 
+It will create a new IBank with the given primary key 
+if it didn't found an existing IBank with that primary key. 
+The newly created IBank is in the OUT_OF_ORDER state.
+Creation date: (18.09.2002 17:47:41)
+@return com.overstar.ildar.ibank.model.IBank
+@param anId com.overstar.ildar.ibank.model.IBank.IBankPK
+@return IBank
+@throws com.overstar.ildar.ibank.model.PersistenceException
+@exception com.overstar.ildar.ibank.model.PersistenceException The exception 
+description.
+

@@ -1,0 +1,4 @@
+Given an array of Cookies, a name, and a default value,
+this method tries to find the value of the cookie with
+the given name. If there is no cookie matching the name
+in the array, then the default value is returned instead.

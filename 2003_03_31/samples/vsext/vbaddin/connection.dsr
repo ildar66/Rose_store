@@ -1,0 +1,69 @@
+VERSION 5.00
+Begin {AC0714F6-3D04-11D1-AE7D-00A0C90F26F4} Connection 
+   ClientHeight    =   9630
+   ClientLeft      =   1740
+   ClientTop       =   1545
+   ClientWidth     =   11115
+   _ExtentX        =   19606
+   _ExtentY        =   16986
+   _Version        =   393216
+   Description     =   "Add-In Project Template"
+   DisplayName     =   "VS Extensibility VB Add-In"
+   AppName         =   "Visual Basic"
+   AppVer          =   "Visual Basic 6.0"
+   LoadName        =   "None"
+   RegLocation     =   "HKEY_CURRENT_USER\Software\Microsoft\Visual Basic\6.0"
+   CmdLineSupport  =   -1  'True
+End
+Attribute VB_Name = "Connection"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = False
+Attribute VB_Exposed = True
+Attribute VB_Ext_KEY = "RVB_ModelStereotype" ,"AddInDesigner"
+Option Explicit
+
+Private VBInstance As VBIDE.VBE                                 'Parent VBIDE Application object
+Private ProjectFileEvents As Scripting.Dictionary               'Collection of all File event handlers
+Private WithEvents VBProjectsEvents As VBIDE.VBProjectsEvents   'Projects events
+Attribute VBProjectsEvents.VB_VarHelpID = -1
+
+'*********************************************************************************
+'AddinInstance Event Handlers
+
+'this method adds the Add-In to VB
+Private Sub AddinInstance_OnConnection(ByVal Application As Object, ByVal ConnectMode As AddInDesignerObjects.ext_ConnectMode, ByVal AddInInst As Object, custom() As Variant)
+    On Error GoTo error_handler
+    'save the vb instance
+    Set VBInstance = Application
+    Set ProjectFileEvents = New Scripting.Dictionary
+    Set VBProjectsEvents = VBInstance.Events.VBProjectsEvents
+    Exit Sub
+error_handler:
+    MsgBox Err.Description
+End Sub
+
+'this method removes the Add-In from VB
+Private Sub AddinInstance_OnDisconnection(ByVal RemoveMode As AddInDesignerObjects.ext_DisconnectMode, custom() As Variant)
+    'Release objects
+    Set VBInstance = Nothing
+    ProjectFileEvents.RemoveAll
+    Set ProjectFileEvents = Nothing
+    Set VBProjectsEvents = Nothing
+End Sub
+
+'*********************************************************************************
+'VBProjectsEvents Event Handlers
+
+'Project added to the the VBIDE
+Private Sub VBProjectsEvents_ItemAdded(ByVal VBProject As VBIDE.VBProject)
+    Dim lProjectFileEvents As New ProjectFileEvents
+    'Create an File events handler and add to collection
+    Set lProjectFileEvents.FileControlEvents = VBInstance.Events.FileControlEvents(VBProject)
+    ProjectFileEvents.Add VBProject, lProjectFileEvents
+End Sub
+
+'Project removed from the IDE
+Private Sub VBProjectsEvents_ItemRemoved(ByVal VBProject As VBIDE.VBProject)
+    ProjectFileEvents.Remove VBProject
+End Sub

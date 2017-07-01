@@ -1,0 +1,288 @@
+Справочники
+../webviewer/16.jpg
+cat3e01d45e0304/cat3e01d45e0304.htm
+
+cat3e01d45e0304/contents.cnt
+cat3e01d45e0304/
+Счета
+../webviewer/16.jpg
+cat3e01d6230387/cat3e01d6230387.htm
+
+cat3e01d6230387/contents.cnt
+cat3e01d6230387/
+Документы
+../webviewer/16.jpg
+cat3e01d6310215/cat3e01d6310215.htm
+
+cat3e01d6310215/contents.cnt
+cat3e01d6310215/
+Main
+../webviewer/26.jpg
+dgm39c9261001b7.htm
+
+
+
+(
+)
+State/Activity Model
+../webviewer/86.jpg
+stm3e0ad99b01d2.htm
+
+
+
+(
+IBank states
+../webviewer/25.jpg
+dgm3e0ad99b01f0.htm
+
+
+
+(
+)
+--Not Named--
+../webviewer/93.jpg
+stv3e0ad9bc02be.htm
+
+
+
+(
+)
+--Not Named--
+../webviewer/92.jpg
+stv3e0ad9c50107.htm
+
+
+
+(
+)
+OUT OF ORDER
+../webviewer/94.jpg
+stv3e0ad9c70128.htm
+
+
+
+(
+)
+READY TO USE
+../webviewer/94.jpg
+stv3e0adb6b0213.htm
+
+
+
+(
+)
+In Use
+../webviewer/94.jpg
+stv3e0adc900264.htm
+
+
+
+(
+)
+(
+State/Activity Model2
+../webviewer/86.jpg
+stm3e0adea80203.htm
+
+
+
+(
+IBank in Use States
+../webviewer/25.jpg
+dgm3e0adea8022b.htm
+
+
+
+(
+)
+READY TO USE                        (see IBank states)
+../webviewer/93.jpg
+stv3e0af1a2008f.htm
+
+
+
+(
+)
+NOT LOGGED ON
+../webviewer/94.jpg
+stv3e0af20702d8.htm
+
+
+
+(
+)
+CLIENT INFO
+../webviewer/94.jpg
+stv3e0af2ce00c0.htm
+
+
+
+(
+)
+READY TO USE                       (see IBank states)
+../webviewer/92.jpg
+stv3e0af4100370.htm
+
+
+
+(
+)
+RECIPIENTS  LISTED
+../webviewer/94.jpg
+stv3e0af50002cf.htm
+
+
+
+(
+)
+BANKS LISTED
+../webviewer/94.jpg
+stv3e0af57d02d5.htm
+
+
+
+(
+)
+DOCUMENTS LISTED
+../webviewer/94.jpg
+stv3e0af6160184.htm
+
+
+
+(
+)
+RECIPIENTS CHOOSEN
+../webviewer/94.jpg
+stv3e0af83600b4.htm
+
+
+
+(
+)
+DOCUMENTS CHOOSEN
+../webviewer/94.jpg
+stv3e0af8ca02ff.htm
+
+
+
+(
+)
+)
+)
+)
+Идентификация клиента
+../webviewer/42.jpg
+uc3df71652031c.htm
+uc3df71652031c.txt
+
+
+(
+IdentificationClientFlowOfEvent.htm
+../webviewer/doc_htm.jpg
+../documents/c/ibank/doc/identificationclientflowofevent.htm
+
+
+
+theКлиент ( Клиент )
+../webviewer/82.jpg
+../looseends/role3df71652032b.htm
+
+
+
+)
+(
+<<>> Идентификация клиента
+../webviewer/22.jpg
+dgm3e0715e503af.htm
+
+
+
+(
+)
+<<>> Идентификация клиента
+../webviewer/23.jpg
+dgm3e072c4d0393.htm
+
+
+
+(
+)
+)
+<<Actor>> Клиент
+../webviewer/41.jpg
+class3df716520328.htm
+class3df716520328.txt
+
+
+(
+theИдентификация клиента ( Идентификация клиента )
+../webviewer/82.jpg
+../looseends/role3df71652032c.htm
+
+
+
+theЗапросить список банков ( Запросить список банков )
+../webviewer/82.jpg
+../looseends/role3e02d29a0341.htm
+
+
+
+theДобавить корреспондента ( Добавить корреспондента )
+../webviewer/82.jpg
+../looseends/role3df716520341.htm
+
+
+
+theЗапросить список корреспондентов ( Запросить список корреспондентов )
+../webviewer/82.jpg
+../looseends/role3df716520332.htm
+
+
+
+theИзменить корреспондента ( Изменить корреспондента )
+../webviewer/82.jpg
+../looseends/role3df71652034c.htm
+
+
+
+theУдалить корреспондента ( Удалить корреспондента )
+../webviewer/82.jpg
+../looseends/role3df716520357.htm
+
+
+
+theЛист счетов ( Лист счетов )
+../webviewer/82.jpg
+../looseends/role3df716520325.htm
+
+
+
+)
+Associations
+../webviewer/assoccat.gif
+
+
+
+
+(
+Association Ввести PIN
+../webviewer/81.jpg
+../looseends/ass3df71652032a.htm
+
+
+
+(
+Идентификация клиента ( theИдентификация клиента )
+../webviewer/82.jpg
+../looseends/role3df71652032b.htm
+
+
+
+Клиент ( theКлиент )
+../webviewer/82.jpg
+../looseends/role3df71652032c.htm
+
+
+
+)
+)

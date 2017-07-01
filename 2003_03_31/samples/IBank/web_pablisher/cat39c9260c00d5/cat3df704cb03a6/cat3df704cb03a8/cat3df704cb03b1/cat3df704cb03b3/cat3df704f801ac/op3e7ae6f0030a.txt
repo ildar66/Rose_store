@@ -1,0 +1,10 @@
+Returns the requested parameter 
+@param request Object that encapsulates the request to the servlet 
+@param parameterName The name of the parameter value to return
+@param parameterNumber The number of the parameter value to return 
+@param checkRequestParameters when true, the request parameters are searched 
+@param checkInitParameters when true, the servlet init parameters are searched 
+@param isParameterRequired when true, an exception is thrown when the parameter cannot be found 
+@param defaultValue The default value to return when the parameter is not found 
+@return The parameter value 
+@exception java.lang.Exception Thrown when the parameter is not found

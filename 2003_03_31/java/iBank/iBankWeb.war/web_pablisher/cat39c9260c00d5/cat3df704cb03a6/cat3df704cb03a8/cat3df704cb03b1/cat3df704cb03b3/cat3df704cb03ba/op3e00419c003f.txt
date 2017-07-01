@@ -1,0 +1,2 @@
+Resets the session variable(s).
+Creation date: (18.09.2002 18:26:11)

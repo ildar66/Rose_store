@@ -1,0 +1,3 @@
+Insert the method's description here.
+Creation date: (30.10.2002 16:32:05)
+@return com.overstar.ildar.ibank.model.Money

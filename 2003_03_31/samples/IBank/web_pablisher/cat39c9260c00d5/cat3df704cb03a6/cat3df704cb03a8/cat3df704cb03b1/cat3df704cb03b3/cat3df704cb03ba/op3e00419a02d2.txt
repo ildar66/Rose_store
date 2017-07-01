@@ -1,0 +1,4 @@
+Get the primary key of the IBank.
+Creation date: (18.09.2002 18:01:37)
+@return com.overstar.ildar.ibank.model.IBank.IBankPK
+

@@ -1,0 +1,248 @@
+Работа со справочником корреспондентов
+../../../../webviewer/26.jpg
+dgm3e01d6f002c4.htm
+
+
+
+(
+)
+Добавить корреспондента
+../../../../webviewer/42.jpg
+uc3df71652033c.htm
+uc3df71652033c.txt
+
+
+(
+AddRecipientsFlowOfEvent.htm
+../../../../webviewer/doc_htm.jpg
+../../../../documents/c/ibank/doc/addrecipientsflowofevent.htm
+
+
+
+theКлиент ( Клиент )
+../../../../webviewer/82.jpg
+../../../../looseends/role3df716520340.htm
+
+
+
+)
+(
+<<>> Добавить корреспондента
+../../../../webviewer/22.jpg
+dgm3e09774a0301.htm
+
+
+
+(
+)
+<<>> Добавить корреспондента
+../../../../webviewer/23.jpg
+dgm3e097810025c.htm
+
+
+
+(
+)
+)
+Изменить корреспондента
+../../../../webviewer/42.jpg
+uc3df716520347.htm
+uc3df716520347.txt
+
+
+(
+ChangeRecipientsFlowOfEvent.htm
+../../../../webviewer/doc_htm.jpg
+../../../../documents/c/ibank/doc/changerecipientsflowofevent.htm
+
+
+
+theКлиент ( Клиент )
+../../../../webviewer/82.jpg
+../../../../looseends/role3df71652034b.htm
+
+
+
+)
+(
+Изменить корреспондента
+../../../../webviewer/22.jpg
+dgm3e0979320231.htm
+
+
+
+(
+)
+Изменить корреспондента
+../../../../webviewer/23.jpg
+dgm3e097a1003b7.htm
+
+
+
+(
+)
+)
+Удалить корреспондента
+../../../../webviewer/42.jpg
+uc3df716520352.htm
+uc3df716520352.txt
+
+
+(
+DeleteRecipientsFlowOfEvent.htm
+../../../../webviewer/doc_htm.jpg
+../../../../documents/c/ibank/doc/deleterecipientsflowofevent.htm
+
+
+
+theКлиент ( Клиент )
+../../../../webviewer/82.jpg
+../../../../looseends/role3df716520356.htm
+
+
+
+)
+(
+Удалить корреспондента
+../../../../webviewer/22.jpg
+dgm3e097a3f038c.htm
+
+
+
+(
+)
+Удалить корреспондента
+../../../../webviewer/23.jpg
+dgm3e097aa3006f.htm
+
+
+
+(
+)
+)
+Запросить список корреспондентов
+../../../../webviewer/42.jpg
+uc3df716520335.htm
+uc3df716520335.txt
+
+
+(
+ListRecipientsFlowOfEvent.htm
+../../../../webviewer/doc_htm.jpg
+../../../../documents/c/ibank/doc/listrecipientsflowofevent.htm
+
+
+
+theКлиент ( Клиент )
+../../../../webviewer/82.jpg
+../../../../looseends/role3df716520331.htm
+
+
+
+)
+(
+<<>> Запросить список корреспондентов
+../../../../webviewer/22.jpg
+dgm3e07047b020f.htm
+
+
+
+(
+)
+<<>> Запросить список корреспондентов
+../../../../webviewer/23.jpg
+dgm3e071a4a00b5.htm
+
+
+
+(
+)
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+Association Добавление корреспондента
+../../../../webviewer/81.jpg
+../../../../looseends/ass3df71652033f.htm
+../../../../looseends/ass3df71652033f.txt
+
+
+(
+Добавить корреспондента ( theДобавить корреспондента )
+../../../../webviewer/82.jpg
+../../../../looseends/role3df716520340.htm
+
+
+
+Клиент ( theКлиент )
+../../../../webviewer/82.jpg
+../../../../looseends/role3df716520341.htm
+
+
+
+)
+Association Запрос Корреспондентов
+../../../../webviewer/81.jpg
+../../../../looseends/ass3df716520330.htm
+
+
+
+(
+Запросить список корреспондентов ( theЗапросить список корреспондентов )
+../../../../webviewer/82.jpg
+../../../../looseends/role3df716520331.htm
+
+
+
+Клиент ( theКлиент )
+../../../../webviewer/82.jpg
+../../../../looseends/role3df716520332.htm
+
+
+
+)
+Association Изменение корреспондента
+../../../../webviewer/81.jpg
+../../../../looseends/ass3df71652034a.htm
+../../../../looseends/ass3df71652034a.txt
+
+
+(
+Изменить корреспондента ( theИзменить корреспондента )
+../../../../webviewer/82.jpg
+../../../../looseends/role3df71652034b.htm
+
+
+
+Клиент ( theКлиент )
+../../../../webviewer/82.jpg
+../../../../looseends/role3df71652034c.htm
+
+
+
+)
+Association Удаление корреспондента
+../../../../webviewer/81.jpg
+../../../../looseends/ass3df716520355.htm
+../../../../looseends/ass3df716520355.txt
+
+
+(
+Удалить корреспондента ( theУдалить корреспондента )
+../../../../webviewer/82.jpg
+../../../../looseends/role3df716520356.htm
+
+
+
+Клиент ( theКлиент )
+../../../../webviewer/82.jpg
+../../../../looseends/role3df716520357.htm
+
+
+
+)
+)

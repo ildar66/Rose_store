@@ -1,0 +1,74 @@
+Работа со счетами
+../../webviewer/26.jpg
+dgm3e01d77202b7.htm
+
+
+
+(
+)
+Лист счетов
+../../webviewer/42.jpg
+uc3df716520321.htm
+uc3df716520321.txt
+
+
+(
+ListAccountsFlowOfEvent.htm
+../../webviewer/doc_htm.jpg
+../../documents/c/ibank/doc/listaccountsflowofevent.htm
+
+
+
+theКлиент ( Клиент )
+../../webviewer/82.jpg
+../../looseends/role3df716520324.htm
+
+
+
+)
+(
+Лист счетов
+../../webviewer/22.jpg
+dgm3e097b43008d.htm
+
+
+
+(
+)
+Лист счетов
+../../webviewer/23.jpg
+dgm3e097c810164.htm
+
+
+
+(
+)
+)
+Associations
+../../webviewer/assoccat.gif
+
+
+
+
+(
+Association Запрос счетов
+../../webviewer/81.jpg
+../../looseends/ass3df716520323.htm
+../../looseends/ass3df716520323.txt
+
+
+(
+Лист счетов ( theЛист счетов )
+../../webviewer/82.jpg
+../../looseends/role3df716520324.htm
+
+
+
+Клиент ( theКлиент )
+../../webviewer/82.jpg
+../../looseends/role3df716520325.htm
+
+
+
+)
+)

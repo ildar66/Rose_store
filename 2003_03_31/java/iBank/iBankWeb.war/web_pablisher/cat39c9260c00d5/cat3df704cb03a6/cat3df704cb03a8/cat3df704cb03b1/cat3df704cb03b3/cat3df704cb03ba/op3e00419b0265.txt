@@ -1,0 +1,5 @@
+Insert the IClient in the IBank.
+Creation date: (18.09.2002 18:21:52)
+@param aIClient com.overstar.ildar.ibank.model.IClient
+@exception java.lang.IllegalStateException The exception description.
+@exception com.overstar.ildar.ibank.model.InvalidIClientException The exception description.

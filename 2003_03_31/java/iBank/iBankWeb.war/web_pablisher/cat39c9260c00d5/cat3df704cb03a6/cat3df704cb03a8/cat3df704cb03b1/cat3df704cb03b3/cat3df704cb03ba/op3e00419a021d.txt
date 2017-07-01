@@ -1,0 +1,3 @@
+Insert the method's description here.
+Creation date: (24.09.2002 15:54:04)
+@return com.overstar.ildar.ibank.model.Recipient

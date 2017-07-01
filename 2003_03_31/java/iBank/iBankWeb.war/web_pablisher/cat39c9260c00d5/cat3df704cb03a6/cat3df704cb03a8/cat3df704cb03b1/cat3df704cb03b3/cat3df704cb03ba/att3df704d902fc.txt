@@ -1,0 +1,2 @@
+This attribute contains the primary key of the IBank.
+An IBank can be retrieved by searching on this value.

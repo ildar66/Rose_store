@@ -1,0 +1,2 @@
+Starts the application.
+@param args an array of command-line arguments

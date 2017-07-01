@@ -1,0 +1,4 @@
+An instance of this gets thrown whenever there is an issue with persisting an 
+object.
+Creation date: (12.09.2002 11:24:50)
+@author: Shafigullin Ildar

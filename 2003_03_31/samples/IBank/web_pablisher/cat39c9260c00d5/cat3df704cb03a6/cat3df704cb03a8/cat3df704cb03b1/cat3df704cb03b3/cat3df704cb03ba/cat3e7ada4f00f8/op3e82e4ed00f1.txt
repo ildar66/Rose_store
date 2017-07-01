@@ -1,0 +1,7 @@
+BankAccount constructor comment.
+@param anId
+@param anClient_id
+@param anCreate_date
+@param anCreate_amount
+@param anCurrency
+@param isStore

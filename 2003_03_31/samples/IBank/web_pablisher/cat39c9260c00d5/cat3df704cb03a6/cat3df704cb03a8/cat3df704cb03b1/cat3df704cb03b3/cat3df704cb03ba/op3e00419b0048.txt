@@ -1,0 +1,10 @@
+Insert the method's description here.
+Creation date: (30.09.2002 16:19:00)
+@param aSortBy java.lang.String
+@return java.util.Vector
+@throws com.overstar.ildar.ibank.model.PersistenceException
+@throws java.lang.IllegalStateException
+@exception com.overstar.ildar.ibank.model.PersistenceException The exception 
+description.
+@exception java.lang.IllegalStateException The exception description.
+

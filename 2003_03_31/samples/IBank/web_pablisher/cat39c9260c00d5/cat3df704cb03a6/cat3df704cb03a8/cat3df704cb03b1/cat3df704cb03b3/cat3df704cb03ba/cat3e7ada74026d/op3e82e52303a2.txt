@@ -1,0 +1,4 @@
+Return the RecipientUpdate property value.
+@return com.ibm.ivj.db.uibeans.Modify
+WARNING: THIS METHOD WILL BE REGENERATED.
+

@@ -1,0 +1,5 @@
+Validate the PIN code in the procedure to
+authenticate the current Person.
+Creation date: (20.09.2002 12:23:29)
+@param aPINStr java.lang.String
+@exception com.overstar.ildar.ibank.model.InvalidPINException The exception description.

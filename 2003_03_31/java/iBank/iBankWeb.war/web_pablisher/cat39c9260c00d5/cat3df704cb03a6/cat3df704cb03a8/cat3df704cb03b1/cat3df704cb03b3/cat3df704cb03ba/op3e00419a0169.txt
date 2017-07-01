@@ -1,0 +1,6 @@
+This finder converts String to key and uses the other one. 
+Convenience method of {@link #findWithIBankPK()}.
+Creation date: (18.09.2002 17:51:01)
+@return com.overstar.ildar.ibank.model.IBank
+@param anIdStr java.lang.String
+@exception com.overstar.ildar.ibank.model.PersistenceException The exception description.

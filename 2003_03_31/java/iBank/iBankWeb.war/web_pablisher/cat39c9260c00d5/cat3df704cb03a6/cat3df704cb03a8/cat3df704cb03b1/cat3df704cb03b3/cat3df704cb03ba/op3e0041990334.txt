@@ -1,0 +1,26 @@
+Insert the method's description here.
+Creation date: (05.11.2002 12:34:23)
+@param anDocType int
+@param anDate_doc java.sql.Date
+@param anNum_doc java.lang.String
+@param anSigners java.lang.String
+@param anPayment_type java.lang.String
+@param anPayer_inn java.lang.String
+@param anPayer_name java.lang.String
+@param anPayer_account java.lang.String
+@param anPayer_bank_name java.lang.String
+@param anPayer_bank_bic java.lang.String
+@param anPayer_bank_acc java.lang.String
+@param anAmount com.overstar.ildar.ibank.model.Money
+@param anRcpt_inn java.lang.String
+@param anRcpt_name java.lang.String
+@param anRcpt_account java.lang.String
+@param anRcpt_bank_name java.lang.String
+@param anRcpt_bank_bic java.lang.String
+@param anRcpt_bank_acc java.lang.String
+@param anType_oper java.lang.String
+@param anQueue java.lang.String
+@param anTerm java.sql.Date
+@param anPayment_details java.lang.String
+@param anKpp java.lang.String
+@exception com.overstar.ildar.ibank.model.PersistenceException The exception description.

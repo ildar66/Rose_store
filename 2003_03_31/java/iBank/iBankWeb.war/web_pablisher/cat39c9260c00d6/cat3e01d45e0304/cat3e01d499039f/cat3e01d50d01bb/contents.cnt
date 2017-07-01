@@ -1,0 +1,74 @@
+Работа со справочником банков
+../../../../webviewer/26.jpg
+dgm3e02d1ff02f6.htm
+
+
+
+(
+)
+Запросить список банков
+../../../../webviewer/42.jpg
+uc3e02d27100de.htm
+
+
+
+(
+ListBanksFlowOfEvent.htm
+../../../../webviewer/doc_htm.jpg
+../../../../documents/c/ibank/doc/listbanksflowofevent.htm
+
+
+
+theКлиент ( Клиент )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e02d29a033f.htm
+
+
+
+)
+(
+<<>> Запросить список банков
+../../../../webviewer/22.jpg
+dgm3e097559007c.htm
+
+
+
+(
+)
+<<>> Запросить список банков
+../../../../webviewer/23.jpg
+dgm3e0976c8007a.htm
+
+
+
+(
+)
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+Association Запрос списка банков
+../../../../webviewer/81.jpg
+../../../../looseends/ass3e02d29a0032.htm
+
+
+
+(
+Запросить список банков ( theЗапросить список банков )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e02d29a033f.htm
+
+
+
+Клиент ( theКлиент )
+../../../../webviewer/82.jpg
+../../../../looseends/role3e02d29a0341.htm
+
+
+
+)
+)

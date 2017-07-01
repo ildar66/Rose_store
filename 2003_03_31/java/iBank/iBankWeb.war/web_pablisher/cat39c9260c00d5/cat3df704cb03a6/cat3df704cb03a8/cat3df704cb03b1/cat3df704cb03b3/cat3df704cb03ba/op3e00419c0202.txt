@@ -1,0 +1,3 @@
+Insert the method's description here.
+Creation date: (23.10.2002 18:17:08)
+@param newStatuses java.lang.String[]

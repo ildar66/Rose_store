@@ -1,0 +1,6 @@
+Represents an amount of money.
+The currency is not taken into account here.(Нужно привязать его таблице Валют(ildar.Currency))
+This basically represents only a quantity, without a fraction.
+We use BigDecimal as basis for our implementation.
+Creation date: (04.09.2002 12:24:42)
+@author: Shafigullin Ildar

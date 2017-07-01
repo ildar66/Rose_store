@@ -1,0 +1,7 @@
+Money constructor comment.
+@param val java.lang.String
+@param anAmountStr
+@throws java.lang.NumberFormatException
+@exception java.lang.NumberFormatException When the parameter cannot be 
+converted to a number
+

@@ -1,0 +1,5 @@
+IClientReader models instances of the IClient reading device of an IBank.
+To indicate what is happening, these instances write messages
+on the console (OUT).
+Creation date: (18.09.2002 16:31:02)
+@author: Shafigullin Ildar

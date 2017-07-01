@@ -1,0 +1,3 @@
+Gives standard representation of an instance.
+Creation date: (04.09.2002 18:17:46)
+@return java.lang.String

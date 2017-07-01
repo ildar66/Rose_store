@@ -1,0 +1,6 @@
+Start the IBank.
+Call this method to make a new IBank READY_TO_USE.
+Creation date: (18.09.2002 18:15:43)
+@throws java.lang.IllegalStateException
+@exception java.lang.IllegalStateException The exception description.
+

@@ -1,0 +1,4 @@
+@return com.ibm.db.DatabaseConnection
+@throws java.lang.Throwable
+@throws com.ibm.db.DataException
+

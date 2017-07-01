@@ -1,0 +1,8 @@
+Insert the method's description here.
+Creation date: (16.09.2002 16:46:38)
+@param anBik anBik
+@param anBill_corr java.lang.String
+@param anBank_name java.lang.String
+@param anCity java.lang.String
+@param anDelivery java.lang.String
+@exception com.overstar.ildar.ibank.model.PersistenceException The exception description.

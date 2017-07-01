@@ -1,0 +1,8 @@
+Insert the method's description here.
+Creation date: (04.11.2002 15:24:23)
+@param docType int
+@param aDocumentIDstr java.lang.String
+@throws java.lang.IllegalStateException
+@throws com.overstar.ildar.ibank.model.PersistenceException
+@exception java.lang.IllegalStateException The exception description.
+

@@ -1,0 +1,5 @@
+Stop the IBank session.
+A call to this method makes the IClientReader
+eject the IClient and will make the IBank READY_TO_USE again.
+Creation date: (18.09.2002 18:28:55)
+@exception java.lang.IllegalStateException The IBank is not in the proper state

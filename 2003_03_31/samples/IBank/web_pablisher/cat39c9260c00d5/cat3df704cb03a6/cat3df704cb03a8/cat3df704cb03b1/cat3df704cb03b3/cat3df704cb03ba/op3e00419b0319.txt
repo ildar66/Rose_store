@@ -1,0 +1,4 @@
+Interrupt the IBank.
+Call this method to put the IBank OUT_OF_ORDER.
+Creation date: (18.09.2002 18:24:04)
+

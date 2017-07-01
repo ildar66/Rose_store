@@ -1,0 +1,4 @@
+Insert the method's description here.
+Creation date: (25.09.2002 15:44:14)
+@param aRecipient com.overstar.ildar.ibank.model.Recipient
+@exception java.lang.IllegalStateException The exception description.

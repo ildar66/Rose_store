@@ -1,0 +1,3 @@
+Insert the method's description here.
+Creation date: (29.01.2003 13:46:34)
+@param newDoc_type int

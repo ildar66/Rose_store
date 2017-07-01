@@ -1,0 +1,4 @@
+Insert the method's description here.
+Creation date: (12.09.2002 12:35:53)
+@param newCln_type java.lang.String
+

@@ -1,0 +1,1028 @@
+#
+# Copyright (c) 1995-1998, Rational Software Corporation. ALL RIGHTS RESERVED
+#
+(object Petal version 42)
+
+(list Attribute_Set
+	(object Attribute
+		tool       	"Java"
+		name       	"roseId"
+		value      	"753117540"
+	)
+	(object Attribute
+		tool       	"Java"
+		name       	"propertyId"
+		value      	"809135966"
+	)
+
+	#
+	# Project/Model properties
+	#
+	(object Attribute
+		tool       	"Java"
+		name       	"default__Project"
+		value      	(list Attribute_Set
+			(object Attribute
+				tool       	"Java"
+				name       	"RootDir"
+				value      	""
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"CreateMissingDirectories"
+				value      	TRUE
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"StopOnError"
+				value      	FALSE
+			)
+			(object Attribute
+				tool            "Java"
+				name            "UsePrefixes"
+				value           FALSE
+			)
+			(object Attribute
+				tool            "Java"
+				name            "AutoSync"
+				value           FALSE
+			)
+			(object Attribute
+				tool            "Java"
+				name            "NotShowRoseIDDlg"
+				value           FALSE
+			)
+			(object Attribute
+				tool            "Java"
+				name            "ShowCodegenDlg"
+				value           FALSE
+			)
+			(object Attribute
+				tool 		"Java"
+				name 		"GenerateRoseID"
+				value 		TRUE
+			)			
+			(object Attribute
+				tool 		"Java"
+				name 		"GenerateDefaultReturnLine"
+				value 		TRUE
+			)
+			(object Attribute
+
+				tool            "Java"
+				name            "JavadocDefaultAuthor"
+				value           ""
+			)
+			(object Attribute
+				tool            "Java"
+				name            "JavadocDefaultVersion"
+				value           ""
+			)
+			(object Attribute
+				tool            "Java"
+				name            "JavadocDefaultSince"
+				value           ""
+			)
+			(object Attribute
+				tool            "Java"
+				name       	"UserDefineTagName1"
+				value      	""
+			)
+
+			(object Attribute
+				tool       	"Java"
+				name       	"UserDefineTagApply1"
+				value      	""
+			)
+
+			(object Attribute
+				tool       	"Java"
+				name       	"UserDefineTagText1"
+				value      	""
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"UserDefineTagName2"
+				value      	""
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"UserDefineTagApply2"
+				value      	""
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"UserDefineTagText2"
+				value      	""
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"UserDefineTagName3"
+				value      	""
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"UserDefineTagApply3"
+				value   	""
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"UserDefineTagText3"
+				value      	""
+			)
+
+			(object Attribute
+				tool            "Java"
+				name            "JavadocNumAsterisks"
+				value           0
+			)
+			(object Attribute
+				tool            "Java"
+				name            "MaxNumChars"
+				value           80
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"Editor"
+				value      	("EditorType" 100)
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"VM"
+				value      	("VMType" 200)
+			)	
+			(object Attribute
+				tool       	"Java"
+				name       	"ClassPath"
+				value      	""
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"ReferenceClasspath"
+				value      	""
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"EditorType"
+				value      	(list Attribute_Set
+					(object Attribute
+						tool       	"Java"
+						name       	"BuiltIn"
+						value      	100
+					)
+					(object Attribute
+						tool       	"Java"
+						name       	"WindowsShell"
+						value      	101
+					)
+				)
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"VMType"
+				value      	(list Attribute_Set
+					(object Attribute
+						tool       	"Java"
+						name       	"Sun"
+						value      	200
+					)
+				)
+			)
+			
+			(object Attribute
+				tool       	"Java"
+				name       	"VAJavaWorkingFolder"
+				value      	""
+			)			
+			(object Attribute
+				tool       	"Java"
+				name       	"InstanceVariablePrefix"
+				value      	""
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"ClassVariablePrefix"
+				value      	""
+			)
+			(object Attribute
+				tool       	"Java"
+                		name        "DefaultAttributeDataType"
+                		value       "int"
+			)
+			(object Attribute
+				tool       	"Java"
+                		name        "DefaultOperationReturnType"
+               			value       "void"
+			)
+			(object Attribute
+				tool       	"Java"
+                		name        "NoClassCustomDlg"
+               			value       FALSE
+			)
+		 
+			(object Attribute
+				tool       	"Java"
+				name       	"GlobalImports"
+				value      	(value Text "")
+			)
+			
+			(object Attribute
+				tool       	"Java"
+				name       	"OpenBraceClassStyle"
+				value      	TRUE
+			)
+			 
+			(object Attribute
+				tool       	"Java"
+				name       	"OpenBraceMethodStyle"
+				value      	TRUE
+			)
+
+			(object Attribute
+				tool       	"Java"
+				name       	"UseTabs"
+				value      	FALSE
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"UseSpaces"
+				value      	TRUE
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"SpacingItems"
+				value      	3
+			)
+			 
+			(object Attribute
+				tool       	"Java"
+				name       	"RoseDefaultCommentStyle"
+				value      	TRUE
+			)
+
+			(object Attribute
+				tool       	"Java"
+				name       	"AsteriskCommentStyle"
+				value      	TRUE
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"JavaCommentStyle"
+				value      	TRUE
+			)
+			
+			(object Attribute
+				tool       	"Java"
+				name       	"JavadocAuthor"
+				value      	FALSE
+			)
+
+			(object Attribute
+				tool       	"Java"
+				name       	 "JavadocSince"
+				value      	FALSE
+			)
+
+			(object Attribute
+				tool       	"Java"
+				name       	"JavadocVersion"
+				value      	FALSE
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"BeanPrefix"
+				value      	""
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"BeanSuffix"
+				value      	""
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"RemotePrefix"
+				value      	""
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"RemoteSuffix"
+				value      	""
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"HomePrefix"
+				value      	""
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"HomeSuffix"
+				value      	""
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"PrimaryKeyPrefix"
+				value      	""
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"PrimaryKeySuffix"
+				value      	""
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"EJBDTDLocation"
+				value      	""
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"ServletDTDLocation"
+				value      	""
+			)
+			(object Attribute
+				tool		"Java"
+				name		"DefaultEJBVersion"
+				value		""
+			)
+			(object Attribute
+				tool		"Java"
+				name		"DefaultServletVersion"
+				value		""
+			)
+		)
+	)
+	
+	#
+	# Class properties
+	#	
+	(object Attribute
+		tool       	"Java"
+		name       	"default__Class"
+		value      	(list Attribute_Set
+			(object Attribute
+				tool       	"Java"
+				name       	"Final"
+				value      	FALSE
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"Static"
+				value      	FALSE
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"GenerateDefaultConstructor"
+				value      	TRUE
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"ConstructorIs"
+				value      	("Ctor_Set" 62)
+			)
+			(object Attribute
+				tool		"Java"
+				name		"Ctor_Set"
+				value		(list Attribute_Set
+					(object Attribute
+						tool       	"Java"
+						name       	"public"
+						value      	62
+					)
+					(object Attribute
+						tool       	"Java"
+						name       	"protected"
+						value      	63
+					)
+					(object Attribute
+						tool       	"Java"
+						name       	"private"
+						value      	64
+					)
+					(object Attribute
+						tool       	"Java"
+						name       	"package"
+						value      	65
+					)
+				)
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"GenerateFinalizer"
+				value      	FALSE
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"GenerateStaticInitializer"
+				value      	FALSE
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"GenerateInstanceInitializer"
+				value      	FALSE
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"GenerateCode"
+				value      	TRUE
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"DisableAutoSync"
+				value      	FALSE
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"ReadOnly"
+				value      	FALSE
+			)
+		)
+	)
+
+	#
+	# Class properties
+	#	
+	(object Attribute
+		tool       	"Java"
+		name       	"Default_Servlet__Class"
+		value      	(list Attribute_Set
+			(object Attribute
+				tool       	"Java"
+				name       	"ServletName"
+				value      	""
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"ServletContextRef"
+				value      	FALSE
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"IsSingleThread"
+				value      	FALSE
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"ServletInitParameter"
+				value      	""
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"ServletInitParameterNames"
+				value      	FALSE
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"ServletIsSecure"
+				value      	FALSE
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"ServletRequestDispatcher"
+				value      	FALSE
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"ServletRequestDispatcherPath"
+				value      	""
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"DispatcherInclude"
+				value      	FALSE
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"DispatcherForward"
+				value      	FALSE
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"ServletSecurityRoles"
+				value      	""
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"ServletgetInfo"
+				value      	""
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"ServletXMLFilePath"
+				value      	""
+			)
+		)
+	)
+
+	#
+	# Servlet class Http_Servlet properties
+	#
+	(object Attribute
+		tool       	"Java"
+		name       	"Http_Servlet__Class"
+		value      	(list Attribute_Set
+			(object Attribute
+				tool       	"Java"
+				name       	"ServletRequestAttribute"
+				value      	""
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"ServletRequestAttributesNames"
+				value      	FALSE
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"MethodForRequestAttributes"
+				value      	""
+			)		
+			(object Attribute
+				tool       	"Java"
+				name       	"ServletRequestParameter"
+				value      	""
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"ServletRequestParameterNames"
+				value      	FALSE
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"MethodForRequestParameters"
+				value      	""
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"ServletHeader"
+				value      	""
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"ServletHeaderNames"
+				value      	FALSE
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"MethodForHeaders"
+				value      	""
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"ServletIntHeader"
+				value      	FALSE
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"ServletDateHeader"
+				value      	FALSE
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"ServletCookie"
+				value      	FALSE
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"MethodForCookie"
+				value      	""
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"ServletContentType"
+				value      	""
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"GenerateHTML"
+				value      	FALSE
+			)
+		)
+	)
+
+	#
+	# EJB Class properties
+	#	
+	(object Attribute
+		tool       	"Java"
+		name       	"Default_EJB__Class"
+		value      	(list Attribute_Set
+			(object Attribute
+				tool       	"Java"
+				name       	"Generate_XML_DD"
+				value      	TRUE
+			)		
+			(object Attribute
+				tool       	"Java"
+				name       	"EJBCmpField"
+				value      	""
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"EJBEnvironmentProperties"
+				value      	""
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"EJBCnxFactory"
+				value      	""
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"EJBReferences"
+				value      	""
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"EJBSecurityRoles"
+				value      	""
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"EJBNameInJAR"
+				value      	""
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"EJBSessionType"
+				value      	("EJBSessionType_Set" 200)
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"EJBSessionType_Set"
+				value      	(list Attribute_Set
+					(object Attribute
+						tool       	"Java"
+						name       	""
+						value      	200)
+					(object Attribute
+						tool       	"Java"
+						name       	"Stateless"
+						value      	201)
+					(object Attribute
+						tool       	"Java"
+						name       	"Stateful"
+						value      	202))
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"EJBTransactionType"
+				value      	("EJBTransactionType_Set" 211)
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"EJBTransactionType_Set"
+				value      	(list Attribute_Set
+					(object Attribute
+						tool       	"Java"
+						name       	"Container"
+						value      	211)
+					(object Attribute
+						tool       	"Java"
+						name       	"Bean"
+						value      	212
+					)))
+			(object Attribute
+				tool       	"Java"
+				name       	"EJBPersistenceType"
+				value      	("EJBPersistenceType_Set" 220)
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"EJBPersistenceType_Set"
+				value      	(list Attribute_Set
+					(object Attribute
+						tool       	"Java"
+						name       	""
+						value      	220)
+					(object Attribute
+						tool       	"Java"
+						name       	"Bean"
+						value      	221)
+					(object Attribute
+						tool       	"Java"
+						name       	"Container"
+						value      	222)
+					))
+			(object Attribute
+				tool       	"Java"
+				name       	"EJBReentrant"
+				value      	FALSE
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"EJBSessionSync"
+				value      	FALSE
+			)
+			(object Attribute
+				tool		"Java"
+				name		"EJBVersion"
+				value		("EJBVersion_Set" 230)
+			)
+			(object Attribute
+				tool		"Java"
+				name		"EJBVersion_Set"
+				value		(list Attribute_Set
+					(object Attribute
+						tool		"Java"
+						name		"2.0"
+						value		230)
+					(object Attribute
+						tool		"Java"
+						name		"1.x"
+						value		231)
+					))
+			(object Attribute
+				tool       	"Java"
+				name       	"EJBXMLFilePath"
+				value      	""
+			)
+		)
+	)
+
+	#
+	# Module-Spec properties
+	#
+	(object Attribute
+		tool       	"Java"
+		name       	"default__Module-Spec"
+		value      	(list Attribute_Set
+			(object Attribute
+				tool       	"Java"
+				name       	"CmIdentification"
+				value      	(value Text "")
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"CopyrightNotice"
+				value      	(value Text "")
+			)
+		)
+	)
+	
+	#
+	# Module-Body properties
+	#
+	
+	(object Attribute
+		tool       	"Java"
+		name       	"default__Module-Body"
+		value      	(list Attribute_Set
+			(object Attribute
+				tool       	"Java"
+				name       	"CmIdentification"
+				value      	(value Text "")
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"CopyrightNotice"
+				value      	(value Text "")
+			)
+		)
+	)
+	
+	#
+	# Operation properties
+	#
+	
+	(object Attribute
+		tool       	"Java"
+		name       	"default__Operation"
+		value      	(list Attribute_Set
+			(object Attribute
+				tool       	"Java"
+				name       	"Abstract"
+				value      	FALSE
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"Static"
+				value      	FALSE
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"Final"
+				value      	FALSE
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"Native"
+				value      	FALSE
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"Synchronized"
+				value      	FALSE
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"GenerateFullyQualifiedReturn"
+				value      	FALSE
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"ReplaceExistingCode"
+				value      	TRUE
+			)
+	
+		)
+	)
+
+	#
+	# Class Attribute Properties
+	#
+	
+	(object Attribute
+		tool       	"Java"
+		name       	"default__Attribute"
+		value      	(list Attribute_Set
+			(object Attribute
+				tool       	"Java"
+				name       	"Final"
+				value      	FALSE
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"Transient"
+				value      	FALSE
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"Volatile"
+				value      	FALSE
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"PropertyType"
+				value      	("BeanProperty_Set" 71)
+			)
+			(object Attribute
+				tool		"Java"
+				name		"BeanProperty_Set"
+				value		(list Attribute_Set
+					(object Attribute
+						tool       	"Java"
+						name       	"Not A Property"
+						value      	71
+					)
+					(object Attribute
+						tool       	"Java"
+						name       	"Simple"
+						value      	72
+					)
+					(object Attribute
+						tool       	"Java"
+						name       	"Bound"
+						value      	73
+					)
+					(object Attribute
+						tool       	"Java"
+						name       	"Constrained"
+						value      	74
+					)
+				)
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"IndividualChangeMgt"
+				value      	FALSE
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"Read/Write"
+				value      	("Read/Write_Set" 81)
+			)
+			(object Attribute
+				tool		"Java"
+				name		"Read/Write_Set"
+				value		(list Attribute_Set
+					(object Attribute
+						tool       	"Java"
+						name       	"Read & Write"
+						value      	81
+					)
+					(object Attribute
+						tool       	"Java"
+						name       	"Read Only"
+						value      	82
+					)
+					(object Attribute
+						tool       	"Java"
+						name       	"Write Only"
+						value      	83
+					)
+				)
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"GenerateFullyQualifiedTypes"
+				value      	FALSE
+			)
+		)
+	)
+	
+	#
+	# Role Properties
+	#
+	
+	(object Attribute
+		tool       	"Java"
+		name       	"default__Role"
+		value      	(list Attribute_Set
+			(object Attribute
+				tool       	"Java"
+				name       	"ContainerClass"
+				value      	""
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"InitialValue"
+				value      	""
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"Final"
+				value      	FALSE
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"Transient"
+				value      	FALSE
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"Volatile"
+				value      	FALSE
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"PropertyType"
+				value      	("BeanProperty_Set" 71)
+			)
+			(object Attribute
+				tool		"Java"
+				name		"BeanProperty_Set"
+				value		(list Attribute_Set
+					(object Attribute
+						tool       	"Java"
+						name       	"Not A Property"
+						value      	71
+					)
+					(object Attribute
+						tool       	"Java"
+						name       	"Simple"
+						value      	72
+					)
+					(object Attribute
+						tool       	"Java"
+						name       	"Bound"
+						value      	73
+					)
+					(object Attribute
+						tool       	"Java"
+						name       	"Constrained"
+						value      	74
+					)
+				)
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"IndividualChangeMgt"
+				value      	FALSE
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"Read/Write"
+				value      	("Read/Write_Set" 81)
+			)
+			(object Attribute
+				tool		"Java"
+				name		"Read/Write_Set"
+				value		(list Attribute_Set
+					(object Attribute
+						tool       	"Java"
+						name       	"Read & Write"
+						value      	81
+					)
+					(object Attribute
+						tool       	"Java"
+						name       	"Read Only"
+						value      	82
+					)
+					(object Attribute
+						tool       	"Java"
+						name       	"Write Only"
+						value      	83
+					)
+				)
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"GenerateFullyQualifiedTypes"
+				value      	FALSE
+			)
+			(object Attribute
+				tool       	"Java"
+				name       	"IsNavigable"
+				value      	TRUE
+			)
+		)
+	)
+)

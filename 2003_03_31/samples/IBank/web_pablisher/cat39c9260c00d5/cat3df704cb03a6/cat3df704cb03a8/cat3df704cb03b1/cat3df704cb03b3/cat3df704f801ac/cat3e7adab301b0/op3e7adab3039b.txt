@@ -1,0 +1,4 @@
+Given an array of cookies and a name, this method tries
+to find and return the cookie from the array that has
+the given name. If there is no cookie matching the name
+in the array, null is returned.

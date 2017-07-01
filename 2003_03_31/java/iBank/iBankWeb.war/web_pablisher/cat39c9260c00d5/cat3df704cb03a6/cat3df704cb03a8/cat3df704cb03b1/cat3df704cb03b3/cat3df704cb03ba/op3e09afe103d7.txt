@@ -1,0 +1,4 @@
+Insert the method's description here.
+Creation date: (16.10.2002 16:40:52)
+@param newRcpt_bank_bic java.lang.String
+

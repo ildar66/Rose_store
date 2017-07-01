@@ -1,0 +1,4 @@
+Insert the method's description here.
+Creation date: (30.10.2002 16:32:05)
+@param newClient_id java.lang.Integer
+

@@ -1,0 +1,3 @@
+Initialize the class.
+WARNING: THIS METHOD WILL BE REGENERATED.
+

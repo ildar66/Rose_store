@@ -1,0 +1,6 @@
+Some simple time savers. Note that most are static methods.
+<P>
+Taken from Core Servlets and JavaServer Pages
+from Prentice Hall and Sun Microsystems Press,
+http://www.coreservlets.com/.
+&copy; 2000 Marty Hall; may be freely used or adapted.

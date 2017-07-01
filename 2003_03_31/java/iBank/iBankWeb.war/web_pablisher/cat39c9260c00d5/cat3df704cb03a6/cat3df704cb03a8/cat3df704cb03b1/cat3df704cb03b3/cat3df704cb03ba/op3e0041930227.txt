@@ -1,0 +1,2 @@
+main entrypoint - starts the part when it is run as an application
+@param args java.lang.String[]

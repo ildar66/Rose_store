@@ -1,0 +1,7 @@
+BankAccount constructor comment.
+по умолчанию currency = "RUR"
+@param anId
+@param anClient_id
+@param anCreate_date
+@param anCreate_amount
+@param isStore

@@ -1,0 +1,8 @@
+SpecTransientAccount constructor comment.
+@param anId com.overstar.ildar.ibank.model.BankAccount.BankAccountPK
+@param anClient_id java.lang.Integer
+@param anCreate_date java.sql.Date
+@param anCreate_amount com.overstar.ildar.ibank.model.Money
+@param anCurrency java.lang.String
+@param isStore boolean
+@exception com.overstar.ildar.ibank.model.PersistenceException The exception description.

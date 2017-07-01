@@ -1,0 +1,11 @@
+Insert the method's description here.
+Creation date: (12.11.2002 11:36:26)
+@return java.util.Vector
+@param iClient java.lang.String
+@param anName java.lang.String
+@param anInn java.lang.String
+@param anBill java.lang.String
+@param anBic java.lang.String
+@param aOperation java.lang.String
+@param aSortBy java.lang.String
+@exception com.overstar.ildar.ibank.model.PersistenceException The exception description.

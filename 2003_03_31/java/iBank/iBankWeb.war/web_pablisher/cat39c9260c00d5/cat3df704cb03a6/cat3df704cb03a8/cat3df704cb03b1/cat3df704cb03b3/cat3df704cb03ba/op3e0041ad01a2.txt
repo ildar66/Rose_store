@@ -1,0 +1,3 @@
+Money constructor comment.
+@param unscaledVal java.math.BigInteger
+@param scale int

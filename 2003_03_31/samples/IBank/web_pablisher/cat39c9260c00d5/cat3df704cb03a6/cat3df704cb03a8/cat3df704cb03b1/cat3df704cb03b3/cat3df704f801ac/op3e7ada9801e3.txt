@@ -1,0 +1,6 @@
+Insert the method's description here.
+Creation date: (19.09.2002 12:25:55)
+@return com.overstar.ildar.ibank.model.IBank
+@param request javax.servlet.http.HttpServletRequest
+@param response javax.servlet.http.HttpServletResponse
+@exception java.lang.Exception The exception description.

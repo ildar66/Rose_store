@@ -1,0 +1,280 @@
+Работа с документами
+../../webviewer/26.jpg
+dgm3e02d385008a.htm
+
+
+
+(
+)
+Запросить список документов
+../../webviewer/42.jpg
+uc3e79893f01a1.htm
+uc3e79893f01a1.txt
+
+
+(
+ListDocumentsFlowOfEvent.htm
+../../webviewer/doc_htm.jpg
+../../documents/c/ibank/doc/listdocumentsflowofevent.htm
+
+
+
+)
+(
+Запросить список документов
+../../webviewer/22.jpg
+dgm3e800eb80220.htm
+
+
+
+(
+)
+Запросить список документов
+../../webviewer/23.jpg
+dgm3e80174b0155.htm
+
+
+
+(
+)
+)
+Удалить документ
+../../webviewer/42.jpg
+uc3e7994a30303.htm
+
+
+
+(
+DeleteDocumentFlowOfEvent.htm
+../../webviewer/doc_htm.jpg
+../../documents/c/ibank/doc/deletedocumentflowofevent.htm
+
+
+
+theКлиент ( Клиент )
+../../webviewer/82.jpg
+../../looseends/role3e79955f0321.htm
+
+
+
+)
+(
+Удалить документ
+../../webviewer/22.jpg
+dgm3e8034b2038a.htm
+
+
+
+(
+)
+Удалить документ
+../../webviewer/23.jpg
+dgm3e8039b30038.htm
+
+
+
+(
+)
+)
+Изменить документ
+../../webviewer/42.jpg
+uc3e7994a7011e.htm
+
+
+
+(
+ChangeDocumentFlowOfEvent.htm
+../../webviewer/doc_htm.jpg
+../../documents/c/ibank/doc/changedocumentflowofevent.htm
+
+
+
+theКлиент ( Клиент )
+../../webviewer/82.jpg
+../../looseends/role3e7995620249.htm
+
+
+
+)
+(
+Изменить документ
+../../webviewer/22.jpg
+dgm3e8018d003d8.htm
+
+
+
+(
+)
+Изменить документ
+../../webviewer/23.jpg
+dgm3e8030460228.htm
+
+
+
+(
+)
+)
+Создать документ
+../../webviewer/42.jpg
+uc3e7994a9008b.htm
+
+
+
+(
+AddDocumentFlowOfEvent.htm
+../../webviewer/doc_htm.jpg
+../../documents/c/ibank/doc/adddocumentflowofevent.htm
+
+
+
+theКлиент ( Клиент )
+../../webviewer/82.jpg
+../../looseends/role3e7995650208.htm
+
+
+
+)
+(
+Создать документ
+../../webviewer/22.jpg
+dgm3e803482023c.htm
+
+
+
+(
+)
+Создать документ
+../../webviewer/23.jpg
+dgm3e80500e0017.htm
+
+
+
+(
+)
+)
+Распечатать документ
+../../webviewer/42.jpg
+uc3e7994b7018f.htm
+
+
+
+(
+PrintDocumentFlowOfEvent.htm
+../../webviewer/doc_htm.jpg
+../../documents/c/ibank/doc/printdocumentflowofevent.htm
+
+
+
+theКлиент ( Клиент )
+../../webviewer/82.jpg
+../../looseends/role3e79955c0331.htm
+
+
+
+)
+(
+Распечатать документ
+../../webviewer/22.jpg
+dgm3e803bba0114.htm
+
+
+
+(
+)
+Распечатать документ
+../../webviewer/23.jpg
+dgm3e803f960293.htm
+
+
+
+(
+)
+)
+Associations
+../../webviewer/assoccat.gif
+
+
+
+
+(
+Association Печать документа
+../../webviewer/81.jpg
+../../looseends/ass3e79955b0330.htm
+
+
+
+(
+Распечатать документ ( theРаспечатать документ )
+../../webviewer/82.jpg
+../../looseends/role3e79955c0331.htm
+
+
+
+Клиент ( theКлиент )
+../../webviewer/82.jpg
+../../looseends/role3e79955c0333.htm
+
+
+
+)
+Association Удаление документа
+../../webviewer/81.jpg
+../../looseends/ass3e79955f001e.htm
+
+
+
+(
+Удалить документ ( theУдалить документ )
+../../webviewer/82.jpg
+../../looseends/role3e79955f0321.htm
+
+
+
+Клиент ( theКлиент )
+../../webviewer/82.jpg
+../../looseends/role3e79955f0323.htm
+
+
+
+)
+Association Изменение документа
+../../webviewer/81.jpg
+../../looseends/ass3e799561037e.htm
+
+
+
+(
+Изменить документ ( theИзменить документ )
+../../webviewer/82.jpg
+../../looseends/role3e7995620249.htm
+
+
+
+Клиент ( theКлиент )
+../../webviewer/82.jpg
+../../looseends/role3e7995620253.htm
+
+
+
+)
+Association Создание документа
+../../webviewer/81.jpg
+../../looseends/ass3e79956402ce.htm
+
+
+
+(
+Создать документ ( theСоздать документ )
+../../webviewer/82.jpg
+../../looseends/role3e7995650208.htm
+
+
+
+Клиент ( theКлиент )
+../../webviewer/82.jpg
+../../looseends/role3e799565020a.htm
+
+
+
+)
+)

@@ -1,0 +1,5 @@
+This servlet checks the parameter "IClientnumber" and if
+the number is valid, inserts the IClient into the IBank using the
+business objects.
+Creation date: (19.09.2002 16:08:21)
+@author: Shafigullin Ildar

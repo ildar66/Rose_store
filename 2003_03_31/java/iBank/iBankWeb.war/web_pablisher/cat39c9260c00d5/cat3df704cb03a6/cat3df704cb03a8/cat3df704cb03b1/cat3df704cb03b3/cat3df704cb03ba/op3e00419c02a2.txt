@@ -1,0 +1,3 @@
+Insert the method's description here.
+Creation date: (19.09.2002 10:15:47)
+@exception java.lang.Throwable The exception description.

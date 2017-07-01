@@ -1,0 +1,4 @@
+Ejects current IClient.
+NOTE: Crude implementation.
+Creation date: (18.09.2002 16:59:27)
+

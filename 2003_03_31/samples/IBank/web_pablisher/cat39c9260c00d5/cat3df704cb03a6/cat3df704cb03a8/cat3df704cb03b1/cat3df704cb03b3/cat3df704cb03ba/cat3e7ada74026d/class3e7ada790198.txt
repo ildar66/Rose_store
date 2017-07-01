@@ -1,0 +1,1 @@
+PrimaryKey class to be used for instances of type Recipient.

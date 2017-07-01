@@ -1,0 +1,28 @@
+Insert the method's description here.
+Creation date: (12.09.2002 12:23:23)
+@param anClient_id IClientPK
+@param anInn_cln java.lang.String
+@param anOkpo java.lang.String
+@param anName_cln java.lang.String
+@param anFio_cln java.lang.String
+@param anPhone_cln java.lang.String
+@param anFax_cln java.lang.String
+@param anEmail_cln java.lang.String
+@param anAddr_cln java.lang.String
+@param anNum_dogov java.lang.String
+@param anReg_date java.sql.Date
+@param anPerms java.lang.String
+@param anLock_word java.lang.String
+@param anOrdering_customer java.lang.String
+@param anStatus int
+@param anCln_type java.lang.String
+@param anKpp java.lang.String
+@param anDoc_sign_num java.lang.String
+@param anExt_client_id java.lang.String
+@param anCountry_codejava.lang.String
+@param anCity java.lang.String
+@param anCity_latin java.lang.String
+@param anAddress_latin java.lang.String
+@param anSoato java.lang.String
+@param anResident_flag java.lang.String
+@exception com.overstar.ildar.ibank.model.PersistenceException The exception description.

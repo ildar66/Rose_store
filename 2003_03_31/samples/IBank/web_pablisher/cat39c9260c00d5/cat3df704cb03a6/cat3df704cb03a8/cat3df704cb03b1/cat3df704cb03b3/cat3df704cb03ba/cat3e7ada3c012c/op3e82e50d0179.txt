@@ -1,0 +1,18 @@
+Payment constructor comment.
+@param anId com.overstar.ildar.ibank.model.Document.DocumentPK
+@param anClient_id java.lang.Integer
+@param anDate_doc java.sql.Date
+@param anNum_doc java.lang.String
+@param anStatus_doc java.lang.String
+@param anSigners java.lang.String
+@param anPayment_type
+@param anPayer BusinessPartner
+@param anAmount
+@param anRecipient BusinessPartner
+@param anType_oper
+@param anQueue
+@param anTerm
+@param anPayment_details
+@param anKpp
+@throws com.overstar.ildar.ibank.model.exceptions.InvalidDocumentStatusException
+

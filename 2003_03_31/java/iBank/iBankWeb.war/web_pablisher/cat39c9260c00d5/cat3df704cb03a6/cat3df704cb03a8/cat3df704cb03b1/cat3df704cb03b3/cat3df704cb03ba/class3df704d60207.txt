@@ -1,0 +1,3 @@
+This class is the parent of all sorts of Documents.
+Creation date: (15.10.2002 16:52:16)
+@author: Shafigullin Ildar

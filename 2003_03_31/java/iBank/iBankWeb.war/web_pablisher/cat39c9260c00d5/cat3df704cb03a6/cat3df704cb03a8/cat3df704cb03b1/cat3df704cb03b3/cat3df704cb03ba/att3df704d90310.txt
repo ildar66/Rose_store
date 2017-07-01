@@ -1,0 +1,5 @@
+This attribute contains the state of the IBank system.
+See the two IBank state diagrams for more information.
+We flattened the two diagrams: The 'In Use' state is not retained, 
+instead we promote the substates of it to become states of the IBank.
+IBankState is an innerclass, all possible values for 'state' are static fields on the IBank.

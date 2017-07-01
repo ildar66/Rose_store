@@ -1,0 +1,4 @@
+Return the ID1.
+Creation date: (30.10.2002 15:45:10)
+@return java.lang.String
+

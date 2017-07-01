@@ -1,0 +1,3 @@
+Process incoming HTTP POST requests 
+@param request Object that encapsulates the request to the servlet 
+@param response Object that encapsulates the response from the servlet

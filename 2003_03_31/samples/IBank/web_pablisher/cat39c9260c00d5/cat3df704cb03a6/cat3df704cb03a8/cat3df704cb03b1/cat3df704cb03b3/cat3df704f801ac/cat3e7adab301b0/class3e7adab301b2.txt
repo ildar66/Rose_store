@@ -1,0 +1,7 @@
+Cookie that persists 1 year. Default Cookie doesn't
+persist past current session.
+<P>
+Taken from Core Servlets and JavaServer Pages
+from Prentice Hall and Sun Microsystems Press,
+http://www.coreservlets.com/.
+&copy; 2000 Marty Hall; may be freely used or adapted.

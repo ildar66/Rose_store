@@ -1,0 +1,386 @@
+Manifest-Version: 1.2
+Name: com/overstar/ildar/ibank/model/accounts/SettlementAccount.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: 444meo/BaiQP63AY0qm9WImh+3A=
+MD5-Digest: A+IUEwZM3XclHM8LJaFNwA==
+
+
+Name: com/overstar/ildar/ibank/model/references/BankDAB.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: eteh/WuTTYiWL+EaG6ZwBv4/fY8=
+MD5-Digest: Nt8wzSaMGd3pgkTrG0m/1g==
+
+
+Name: com/overstar/ildar/ibank/model/BusinessPartner.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: 9WyqYRxysR9I5JFD93JBdJxJAak=
+MD5-Digest: O9X0WhCufsm62sZdCUSRQg==
+
+
+Name: com/overstar/ildar/ibank/model/IClient.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: tDR0m9bqoipNmk/MP2MSvKGLUCU=
+MD5-Digest: 5JnSCzfh1BSyX8ieVnup9Q==
+
+
+Name: com/overstar/ildar/ibank/model/exceptions/
+Sealed: True
+
+
+Name: com/overstar/ildar/ibank/model/documents/Document.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: lTr+DUr/pBYwBgwDFyL1udEV2oI=
+MD5-Digest: gXYrDZ/0P/wS354GyiIwDw==
+
+
+Name: com/overstar/ildar/ibank/model/exceptions/AccreditiveNotFoundException.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: G8Ln/PXuB3Kqiyy8lBujyU1BKYU=
+MD5-Digest: F84bTI+i0WgJy8JiKITE0Q==
+
+
+Name: com/overstar/ildar/ibank/model/exceptions/RecipientNotFoundException.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: KGbI7Mr0ALwl4KnWNPdhCWccRAg=
+MD5-Digest: DufBL43DS9DntrULpRkJhw==
+
+
+Name: com/overstar/ildar/ibank/model/Money.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: dlv7qMvnmt+y+YAsGgNbQMgdNkU=
+MD5-Digest: u51oX3SWtFPvOLcvb37/1w==
+
+
+Name: com/overstar/ildar/ibank/servlets/InsertIClientServlet.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: /ne1GfRZqTJxbtzRFQ4/Od+7QF4=
+MD5-Digest: IiFgX+cpLIsGaKEw5bWT8g==
+
+
+Name: com/overstar/ildar/ibank/model/accounts/BankAccount.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: hl+tEpwmA3oWuOhwV1IFgEmDdyc=
+MD5-Digest: myCslKbeA4jYFaftrbvCFA==
+
+
+Name: com/overstar/ildar/ibank/model/documents/Accreditive.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: aDhFMPgybUQ2mQ3jeQ1/VfHfNhE=
+MD5-Digest: 9Sn4TpB63lkPy9fxz7WWAA==
+
+
+Name: com/overstar/ildar/ibank/model/documents/
+Sealed: True
+
+
+Name: com/overstar/ildar/ibank/model/references/Bank.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: bSJsWhDLuGTsF0ZQIfA/XeMqu0Y=
+MD5-Digest: 3zLcoqc3HIgQxlnwfmFFcw==
+
+
+Name: com/overstar/ildar/ibank/model/accounts/BankAccountTransactionMgr.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: 6SGCjm+xetXpuKYMMLMwicH0xdk=
+MD5-Digest: eUHC6LZNpcK5l5L6928OCg==
+
+
+Name: com/overstar/ildar/ibank/model/IBankTest.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: cM+bz6lTzJ2hnVZAWlleRct1ZxI=
+MD5-Digest: 5Hb14oklpNt52eyJUI2eag==
+
+
+Name: com/overstar/ildar/ibank/servlets/
+Sealed: True
+
+
+Name: com/overstar/ildar/ibank/model/accounts/BankAccountDAB.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: HvDwOQCglljaUPER62z4+r9zsic=
+MD5-Digest: osP0JwCIL1ckyRBhKyP36w==
+
+
+Name: com/overstar/ildar/ibank/model/exceptions/BankNotFoundException.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: 1tNEf6tOHKBfLtDt+y/WsVdekeY=
+MD5-Digest: RMZS7cXqhMAL3pur+NjuqQ==
+
+
+Name: com/overstar/ildar/ibank/model/IClientTransactionMgr.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: FM0FOgclM6wd6oy7YQg5Eggd78U=
+MD5-Digest: WUxIQyV1+29wiDmSK00yaA==
+
+
+Name: com/overstar/ildar/ibank/model/exceptions/IClientNotFoundException.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: Doe9JgD9pItHFA6ESSysvrwTOx8=
+MD5-Digest: cTHQpLL3Btm92KlHKv+8eA==
+
+
+Name: com/overstar/ildar/ibank/model/
+Sealed: True
+
+
+Name: com/overstar/ildar/ibank/model/documents/PaymentTransactionMgr.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: pXLwjpeW3mLlHVta/5ISArjXJrQ=
+MD5-Digest: C98ERnjDDeJE/M4zRQCBDQ==
+
+
+Name: com/overstar/ildar/ibank/model/PrimaryKey.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: vr7R+hAq4/RZz1rboRyTL57z/gA=
+MD5-Digest: LB8duHotBcr5cG4xmnbGtw==
+
+
+Name: com/overstar/ildar/ibank/model/documents/DocumentTransactionMgr.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: AOp0cTMxAKeO97CKJKwG4AwWWqI=
+MD5-Digest: U3MJTQRVmTOhLoNN83e1gg==
+
+
+Name: com/overstar/ildar/ibank/model/references/Recipient.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: ZBUcjF1Ggu2ubhQpd26TdD5AJ/M=
+MD5-Digest: pNK8q1Pt9OYmocMrby6ynA==
+
+
+Name: com/overstar/ildar/ibank/model/exceptions/BankAccountNotFoundException.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: bPolo0sEPtPYjIJngNM87aHwhTw=
+MD5-Digest: +58mDX0HdIY8qYxfi0x9Xw==
+
+
+Name: com/overstar/ildar/ibank/servlets/ChooseActionServlet.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: uODtWJy7rXYEFbaAzAjoPAvv79U=
+MD5-Digest: DELKlgYoO0+1rZHqYl1F3A==
+
+
+Name: com/overstar/ildar/ibank/model/references/
+Sealed: True
+
+
+Name: com/overstar/ildar/ibank/model/IClientDAB.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: LOsF57eAX8/hu5z6+VKDW/2/B2U=
+MD5-Digest: sEUpLmD5owyCQsfLD4knVw==
+
+
+Name: com/overstar/ildar/ibank/model/exceptions/InvalidIClientException.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: Uaqg44x32RGJRDdi8GvgLcKHfmk=
+MD5-Digest: V7/f/M5SzC6BKlhDW2UXlQ==
+
+
+Name: com/overstar/ildar/ibank/servlets/util/
+Sealed: True
+
+
+Name: com/overstar/ildar/ibank/model/references/BankTransactionMgr.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: BL+bvAyzo1fC2C+EIUQkdoPAAKw=
+MD5-Digest: ZfzGH0rL4JCq8Scv6NNjCg==
+
+
+Name: com/overstar/ildar/ibank/servlets/util/LongLivedCookie.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: V+fzgZcFe/L84jB74OOnZj6F66k=
+MD5-Digest: 7VZai0e6FrwT3sRfKW4I1Q==
+
+
+Name: com/overstar/ildar/ibank/servlets/ChooseAccreditivsActionServlet.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: ufPOhPugRP4O0B+kRyggqMjjI00=
+MD5-Digest: pYh4Nlkxzxa21E/jDXWCbw==
+
+
+Name: com/overstar/ildar/ibank/model/exceptions/PersistenceException.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: 9F5XceXgwp/QaHJumBcHN8Xb/Tw=
+MD5-Digest: okzv55ToAh96jrLF6lMlXg==
+
+
+Name: com/overstar/ildar/ibank/model/accounts/
+Sealed: True
+
+
+Name: com/overstar/ildar/ibank/model/accounts/TransientAccount.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: 8whNfLSnaPHw5SsY3W7DmW4L3yY=
+MD5-Digest: YhELlUQLc3LxhZF2QSDk2Q==
+
+
+Name: com/overstar/ildar/ibank/servlets/ShowIBankServlet.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: zUv1FSVLGXrZm4/CbUCAfHTsTqE=
+MD5-Digest: im0elbpzU+1OMCH2bqZdbw==
+
+
+Name: com/overstar/ildar/ibank/model/documents/AccreditivDAB.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: j05EoYKWbkLTKaXfRXq2z1RJ6F8=
+MD5-Digest: DORyU0frj3Ep8hAPejSYUA==
+
+
+Name: com/overstar/ildar/ibank/model/exceptions/InvalidDocumentStatusException.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: MaY/maOPc5UTWenzuiujqbYxo+I=
+MD5-Digest: xy7obQrkKCOpuW/wC8wGTw==
+
+
+Name: com/overstar/ildar/ibank/model/exceptions/PaymentNotFoundException.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: FUX4HP9HvBuiTSWTFuZ2Kg8JVsQ=
+MD5-Digest: AJ1QOMYuemFNU68Z/3oy4Q==
+
+
+Name: com/overstar/ildar/ibank/model/IBank.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: ICDqrmCAZdvexSxYwsYgwizZc3g=
+MD5-Digest: Y0wTS1XuspLvH7bjhOWhrw==
+
+
+Name: com/overstar/ildar/ibank/servlets/ChoosePaymentsActionServlet.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: 3sJwqPHddD+SfgzZroOZOu0g8bw=
+MD5-Digest: ORNR/ScWgTmGvt1P4TxckA==
+
+
+Name: com/overstar/ildar/ibank/model/accounts/SpecTransientAccount.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: uEXWjXaGE4fF+IJ66GAewy/TQ9k=
+MD5-Digest: +ylwj8BbAnY2cPZn071ycA==
+
+
+Name: com/overstar/ildar/ibank/model/documents/PaymentDAB.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: wOv73gkDVwb3+8TFLYy57uGIILI=
+MD5-Digest: BKvY585fGnCXfLQmZ0+iDw==
+
+
+Name: com/overstar/ildar/ibank/servlets/util/ServletUtilities.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: wYgCkZlH7nov5HAd8qK3ZPHsqgY=
+MD5-Digest: dWzMLrTl/4C8zJMLGDO6KA==
+
+
+Name: com/overstar/ildar/ibank/servlets/ChooseDocumentsServlet.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: 4LKKLddeuhnIeolwyGdkO7nPXRw=
+MD5-Digest: j1VvVNLkdWMUAL0QIzziyA==
+
+
+Name: com/overstar/ildar/ibank/model/documents/Payment.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: JdFLLcZkIJQK1u++dGPbk028PRw=
+MD5-Digest: gk2eHZU1wot4NE7HZZCfWw==
+
+
+Name: com/overstar/ildar/ibank/servlets/ChooseRecipientActionServlet.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: vdBta2Zg9okwqz8bU7EBM7e4ol0=
+MD5-Digest: 0Os9z4jvmo1BCagKS60moA==
+
+
+Name: com/overstar/ildar/ibank/model/documents/AccreditiveTransactionMgr.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: 2ZdDDJIKSV1qSHrNlrcJXrROiXk=
+MD5-Digest: wVzr8LAwGQVXxQ+97eeIJQ==
+
+
+Name: com/overstar/ildar/ibank/model/references/RecipientTransactionMgr.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: lcYxngTmARsV2QdEmcXCPtz+KW0=
+MD5-Digest: ogix9EYpqIKZ3JEwhgo65A==
+
+
+Name: com/overstar/ildar/ibank/model/accounts/RunningAccount.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: yW1r/7fmHj3y9QVKUwQFTcNE2Wo=
+MD5-Digest: kU7s3hTtdYOcIdOeVZ91/A==
+
+
+Name: com/overstar/ildar/ibank/model/exceptions/InvalidPINException.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: SsfFFG7sKW3rGWNYCxDxespJ5wA=
+MD5-Digest: ZW63olOnCCaqsNOSBy5Z0A==
+
+
+Name: com/overstar/ildar/ibank/model/PrimaryKeyTwo.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: PZqFPLge7cNt37Kb7JjAIJK+6cQ=
+MD5-Digest: qlEVL2auhEEXdUHtHcaxMA==
+
+
+Name: com/overstar/ildar/ibank/servlets/ChooseRecipientServlet.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: mVq4CRtCV6C20wGokL5Fp+x9YpM=
+MD5-Digest: K4B5H5w7MdCAYJ5uTKb3wg==
+
+
+Name: com/overstar/ildar/ibank/servlets/StopServlet.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: X1BS+shRfWHB7HfXD5qO2V2aeA8=
+MD5-Digest: 6eGn/WeRtZN6qceO+YlElQ==
+
+
+Name: com/overstar/ildar/ibank/model/references/RecipientDAB.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: RxC741aSzawu+JyxFt94KTTY8JU=
+MD5-Digest: TC5e0badGBnFLp5tuHvCuA==
+
+

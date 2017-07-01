@@ -1,0 +1,2 @@
+Returns a String that represents the value of this object.
+@return a string representation of the receiver

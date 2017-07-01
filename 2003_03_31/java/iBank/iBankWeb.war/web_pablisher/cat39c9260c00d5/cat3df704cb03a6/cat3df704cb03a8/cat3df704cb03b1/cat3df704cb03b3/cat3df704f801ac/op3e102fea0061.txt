@@ -1,0 +1,4 @@
+Insert the method's description here.
+Creation date: (19.09.2002 12:40:50)
+@return javax.servlet.RequestDispatcher
+@param curstate com.overstar.ildar.ibank.model.IBank.IBankState

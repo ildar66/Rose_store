@@ -1,0 +1,10 @@
+Insert the method's description here.
+Creation date: (13.02.2003 15:40:26)
+@return java.util.Vector
+@param iClient java.lang.String
+@param fromdate java.lang.String
+@param todate java.lang.String
+@param anStatuses java.lang.String[]
+@param aSortBy java.lang.String
+@exception com.overstar.ildar.ibank.model.exceptions.PersistenceException The exception description.
+@exception com.overstar.ildar.ibank.model.exceptions.InvalidDocumentStatusException The exception description.

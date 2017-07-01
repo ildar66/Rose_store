@@ -1,0 +1,7 @@
+Models identifiers for all objects in this package.
+The class is based on the String class.
+It also uses its implementations for hashing.
+Class will be used as base for derived innerclasses
+of the respective classes.
+Creation date: (30.10.2002 14:55:01)
+@author: Shafigullin Ildar

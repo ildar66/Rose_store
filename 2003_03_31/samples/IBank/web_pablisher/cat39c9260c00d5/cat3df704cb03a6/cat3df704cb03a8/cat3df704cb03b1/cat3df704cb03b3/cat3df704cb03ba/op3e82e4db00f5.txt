@@ -1,0 +1,3 @@
+Insert the method's description here.
+Creation date: (27.01.2003 16:13:52)
+@return com.overstar.ildar.ibank.model.documents.DocumentTransactionMgr

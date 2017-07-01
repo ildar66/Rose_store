@@ -1,0 +1,12 @@
+Insert the method's description here.
+Creation date: (18.10.2002 15:15:29)
+@param anDoc_type
+@param anFromdate
+@param anToDate
+@param anStatutes
+@param aSortBy
+@return java.util.Vector
+@throws com.overstar.ildar.ibank.model.PersistenceException
+@throws java.lang.IllegalStateException
+@throws InvalidDocumentStatusException
+

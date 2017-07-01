@@ -1,0 +1,5 @@
+Insert the method's description here.
+Creation date: (31.10.2002 12:43:06)
+@return com.overstar.ildar.ibank.model.BankAccount
+@param anId com.overstar.ildar.ibank.model.BankAccount.BankAccountPK
+@exception com.overstar.ildar.ibank.model.PersistenceException The exception description.

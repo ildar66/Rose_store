@@ -1,0 +1,65 @@
+Signature Version 1.0
+
+
+Name:	com/overstar/ildar/ibank/servlets/ChooseActionServlet.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	/8ANGOrDBioxICSxWm618rK9xZI=
+MD5-Digest:	TF9ewzsQkx9dohc6rOi8hw==
+
+Name:	com/overstar/ildar/ibank/servlets/ChooseDocumentActionServlet.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	OtQb48q8gtLtTGEOYKnIoG51F60=
+MD5-Digest:	T9vBzT+zCCH4uUiWonSBFw==
+
+Name:	com/overstar/ildar/ibank/servlets/ChooseDocumentsServlet.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	58MCMBAP/cKLthyx5WJXUVpngeU=
+MD5-Digest:	edMBcCKM6nq68NiFHTvZcA==
+
+Name:	com/overstar/ildar/ibank/servlets/ChooseRecipientActionServlet.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	zifPTQOB0dssudOdXU8ke9Y83X4=
+MD5-Digest:	PWnJs1fR0uC/bXfUcRdEwQ==
+
+Name:	com/overstar/ildar/ibank/servlets/ChooseRecipientServlet.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	jh0FUdI+FkCVLU//tiWaRFaWBb8=
+MD5-Digest:	JmINc98thPX0m/0jnan3Kw==
+
+Name:	com/overstar/ildar/ibank/servlets/InsertIClientServlet.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	0mE50ruWy9zYs0lYTgHpMUQI1Q8=
+MD5-Digest:	i/FRRCoF+VZKtxlSLWGqoA==
+
+Name:	com/overstar/ildar/ibank/servlets/LongLivedCookie.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	X2SemTdAsDWmT8MwiMlerA+8j2M=
+MD5-Digest:	v5UBg/chSLWXWTzophh/dA==
+
+Name:	com/overstar/ildar/ibank/servlets/ServletUtilities.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	JnpBXnhEFMFM+Kbsdr7HrCShQ1c=
+MD5-Digest:	DNSpCFUIRpWdLB576ozjbA==
+
+Name:	com/overstar/ildar/ibank/servlets/ShowIBankServlet.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	6eswtU31+ndmOGeNQerQPGnl5AE=
+MD5-Digest:	2F+wSzOuPYIWdno7x6YvPA==
+
+Name:	com/overstar/ildar/ibank/servlets/StopServlet.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	eQdbY31Q4V+De9rwoaii4goMjlA=
+MD5-Digest:	9UK4KXdpDqyyK6n2v8lt6Q==
+
+Name:	com/overstar/ildar/ibank/servlets
+Sealed:	True

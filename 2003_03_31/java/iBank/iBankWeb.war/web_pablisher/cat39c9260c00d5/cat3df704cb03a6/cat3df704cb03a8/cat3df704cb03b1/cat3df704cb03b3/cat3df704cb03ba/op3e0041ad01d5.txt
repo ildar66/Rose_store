@@ -1,0 +1,4 @@
+Convenience method.
+Creation date: (04.09.2002 12:54:03)
+@return com.overstar.ildar.ibank.Money
+@param anAmount com.overstar.ildar.ibank.Money

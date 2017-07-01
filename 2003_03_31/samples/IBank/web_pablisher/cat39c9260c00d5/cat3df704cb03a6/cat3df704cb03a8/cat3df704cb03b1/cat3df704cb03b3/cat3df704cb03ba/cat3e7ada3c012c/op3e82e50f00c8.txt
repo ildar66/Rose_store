@@ -1,0 +1,4 @@
+Specific implementation for toString().
+Creation date: (23.09.2002 19:11:03)
+@return java.lang.String
+

@@ -1,0 +1,21 @@
+Accreditive constructor comment.
+@param anId com.overstar.ildar.ibank.model.documents.Document.DocumentPK
+@param anClient_id java.lang.Integer
+@param anDate_doc java.sql.Date
+@param anNum_doc java.lang.String
+@param anStatus_doc java.lang.String
+@param anSigners java.lang.String
+@param anAccreditiev_type java.lang.String
+@param anPayer BusinessPartner
+@param anAmount Money
+@param anRecipient BusinessPartner
+@param anAccount_40901 String
+@param anType_oper String
+@param anTerm java.sql.Date
+@param anType_accreditiv1 String
+@param anType_accreditiv2 String
+@param anCondition_Pay
+@param anAccreditive_details String
+@param anAccreditiv_docs String
+@param anAddConditions String
+@exception com.overstar.ildar.ibank.model.exceptions.InvalidDocumentStatusException The exception description.

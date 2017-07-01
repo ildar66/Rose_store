@@ -1,0 +1,4 @@
+Insert the method's description here.
+Creation date: (23.09.2002 18:22:16)
+@return boolean
+@exception com.overstar.ildar.ibank.model.PersistenceException The exception description.

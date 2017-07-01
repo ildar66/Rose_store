@@ -1,0 +1,294 @@
+package com.overstar.bank.database;
+
+import com.ibm.db.*;
+import com.ibm.db.base.*;
+import com.ibm.ivj.db.uibeans.*;
+public class DocumentDAB extends DatabaseAccess {
+public static com.ibm.db.StatementMetaData PaymentIDSelectSQL() throws java.lang.Throwable {
+  String name = "com.overstar.bank.database.DocumentDAB.PaymentIDSelectSQL";
+  String statement = "SELECT QRSDTTST.PMDOCS.PAYMENTID FROM QRSDTTST.PMDOCS WHERE ( ( QRSDTTST.PMDOCS.APPLICATIONKEY = :KEY ) AND ( QRSDTTST.PMDOCS.APPLICATIONKIND = :KIND ) )";
+
+  StatementMetaData aSpec = null;
+  try{
+	aSpec = new com.ibm.db.StatementMetaData();
+	aSpec.setName(name);
+	aSpec.setSQL(statement);
+	aSpec.addTable("QRSDTTST.PMDOCS");
+	aSpec.addColumn("PMDOCS.PAYMENTID", 4,4);
+	aSpec.addParameter("KEY", 1, 1);
+	aSpec.addParameter("KIND", 5, 5);
+	// user code begin {1} 
+	// user code end {1}
+  }
+  catch(java.lang.Throwable e){
+	// user code begin {2} 
+	// user code end {2}
+	throw e;
+  }
+  return aSpec;
+/*V2.0
+**start of SQL Assist data**
+504b030414g08g08g3b80162bgggggggggggg0cggg6275696c64657220646174615bf39681b5b48841
+243ada272bb12c512f27312f5d2fb8a428332fdddac897736d8bd193702606868a0206060619a042612cead65e0a7bfe52b6
+da1da68ea98481d9c8c0b08481d1a8b490a18e810922c66a6c60146f50c2201d1814ece218e218121ca217e0ebe2ef1cac17
+e018e9ebea17e2e982ac9eddc8c022dega483d110c51c43036390a820863928aa8c0c2ce3816e604d4bcc294ec59031c021
+630ad2c36880216a8045d418a496a02b88702bd0a7e6f186603759797bfaa18402b3253824514280d10c885551444c4b18b8
+117658a3b8c11214ee20010e14838d310d66363430c222861124e0a831c41235460666a0406132420f2b3390624c6113906a
+7ec780g1f4f67c7104f7f3f74ef83d5gb5f221ab718d4453628433a6c1298ea5a4a8341523c0c1498bc50acd34660b9077
+3174g03111c918c26g504b070894eedfe13e01gg3203gg504b010214g14g08g08g3b80162b94eedfe13e01gg
+3203gg0cggggggggggggggggg6275696c6465722064617461504b0506gggg01g01g3aggg
+7801gggg
+**end of SQL Assist data**/
+}
+public static com.ibm.db.StatementMetaData SelectAmountSQL() throws java.lang.Throwable {
+  String name = "com.overstar.bank.database.DocumentDAB.SelectAmountSQL";
+  String statement = "SELECT QRSDTTST.PMPAYM.AMOUNT, QRSDTTST.PMPAYM.RECEIVERACCOUNT, QRSDTTST.PMPAYM.PAYERACCOUNT FROM QRSDTTST.PMPAYM WHERE ( ( QRSDTTST.PMPAYM.PAYMENTID = :PAYMENTID ) )";
+
+  StatementMetaData aSpec = null;
+  try{
+	aSpec = new com.ibm.db.StatementMetaData();
+	aSpec.setName(name);
+	aSpec.setSQL(statement);
+	aSpec.addTable("QRSDTTST.PMPAYM");
+	aSpec.addColumn("PMPAYM.AMOUNT", 3,3);
+	aSpec.addColumn("PMPAYM.RECEIVERACCOUNT", 1,1);
+	aSpec.addColumn("PMPAYM.PAYERACCOUNT", 1,1);
+	aSpec.addParameter("PAYMENTID", 4, 4);
+	// user code begin {1} 
+	// user code end {1}
+  }
+  catch(java.lang.Throwable e){
+	// user code begin {2} 
+	// user code end {2}
+	throw e;
+  }
+  return aSpec;
+/*V2.0
+**start of SQL Assist data**
+504b030414g08g08gca61172bgggggggggggg0cggg6275696c64657220646174615bf39681b5b48841
+243ada272bb12c512f27312f5d2fb8a428332fdddac897736d8bd193702606868a0206060629a042612cead65e0a7bfe52b6
+da1da68ea98481d9c8c0b08481d1b0b490a18e810922c66a6c60146f54c220171814ece218e218121ca217e01be018e9ab07
+245c831c9d9dfd43fd4230b4g0d52c4d412e4eaecea19865b9741098304a62e475f74c5ec460616f10620e568ae35343006
+890a621882a2cac8c012a48a352d31a738154dc6146caa019a2811a6325b8243cf18598cd10c885551444c4b18b811e658a3
+d863090a6b90g0786b02148801b43d8g24c087e20c634c67301b1a18a1071550cc108b47cd401e653242173601097382bc
+ecea17e2e982260b8e389692a2d254b448328744129715569dcc16202760e8037acc381ec3bd6051cce46909891a4663g50
+4b0708c1c3a0573301gg1403gg504b010214g14g08g08gca61172bc1c3a0573301gg1403gg0cgggggg
+ggggggggggg6275696c6465722064617461504b0506gggg01g01g3aggg6d01gggg
+**end of SQL Assist data**/
+}
+public static com.ibm.db.StatementMetaData SelectBankCodeSQL() throws java.lang.Throwable {
+  String name = "com.overstar.bank.database.DocumentDAB.SelectBankCodeSQL";
+  String statement = "SELECT QRSDTTST.PMPROP.BANKCODE FROM QRSDTTST.PMPROP WHERE ( ( QRSDTTST.PMPROP.PAYMENTID = :PAYMENTID ) )";
+
+  StatementMetaData aSpec = null;
+  try{
+	aSpec = new com.ibm.db.StatementMetaData();
+	aSpec.setName(name);
+	aSpec.setSQL(statement);
+	aSpec.addTable("QRSDTTST.PMPROP");
+	aSpec.addColumn("PMPROP.BANKCODE", 1,1);
+	aSpec.addParameter("PAYMENTID", 4, 4);
+	// user code begin {1} 
+	// user code end {1}
+  }
+  catch(java.lang.Throwable e){
+	// user code begin {2} 
+	// user code end {2}
+	throw e;
+  }
+  return aSpec;
+/*V2.0
+**start of SQL Assist data**
+504b030414g08g08gd75a172bgggggggggggg0cggg6275696c64657220646174615bf39681b5b48841
+243ada272bb12c512f27312f5d2fb8a428332fdddac897736d8bd193702606868a0206060611a042612cead65e0a7bfe52b6
+da1da68ea98481d9c8c0b08481d1b0b490a18e810922c66a6c60146f50c220151814ece218e218121ca217e01b10e41fa0e7
+e4e8e7edecefe28aac9cddc8c022dega401cd1843036390a820863128aa8c0c2c41aa58d312738a53d1644cc1a61aa08912
+612ab325a6b718cd80581545c4b484811b618e358a3d96a040g0970a0186c8c6930b3a181111631432c4e3703399dc9085d
+d80424cc19e018e9ebea17e2e982260b8e0c9692a2d254b4603787043b9715569dcc16202760e8037acc181259g504b0708
+d64fed51feggg5302gg504b010214g14g08g08gd75a172bd64fed51feggg5302gg0cggggggggg
+gggggggg6275696c6465722064617461504b0506gggg01g01g3aggg3801gggg
+**end of SQL Assist data**/
+}
+public static com.ibm.db.StatementMetaData SelectCheckDataSQL() throws java.lang.Throwable {
+  String name = "com.overstar.bank.database.DocumentDAB.SelectCheckDataSQL";
+  String statement = "SELECT QRSDTTST.BANKDPRT.CHECKDATA FROM QRSDTTST.BANKDPRT WHERE ( ( QRSDTTST.BANKDPRT.CORACC = :CORACC ) )";
+
+  StatementMetaData aSpec = null;
+  try{
+	aSpec = new com.ibm.db.StatementMetaData();
+	aSpec.setName(name);
+	aSpec.setSQL(statement);
+	aSpec.addTable("QRSDTTST.BANKDPRT");
+	aSpec.addColumn("BANKDPRT.CHECKDATA", 1,1);
+	aSpec.addParameter("CORACC", 1, 1);
+	// user code begin {1} 
+	// user code end {1}
+  }
+  catch(java.lang.Throwable e){
+	// user code begin {2} 
+	// user code end {2}
+	throw e;
+  }
+  return aSpec;
+/*V2.0
+**start of SQL Assist data**
+504b030414g08g08gb456182bgggggggggggg0cggg6275696c64657220646174615bf39681b5b48841
+243ada272bb12c512f27312f5d2fb8a428332fdddac897736d8bd193702606868a0206060611a042612cead65e0a7bfe52b6
+da1da68ea98481d9c8c0b08481d1b0b490a18e810922c66a6c60146f50c2201b1814ece218e218121ca2e7e4e8e7ed121014
+a2e7ece1eaec0d1245d6c16e6460116fgd2836692a181314854188b4928ea8c0c2c41ea58d312738a53d1644cc1e61aa089
+12652eb325a6ef18cd80581545c4b484811b6192358a4d96a0b0g0970a0186c8c6930b3a181111631432c8e3703399ec908
+5dd80424cce6ec1fe4e8ec8c26058e109692a2d254b4703787843bbb15a636660b90e5189a805e32864415g504b07082d22
+4c9afcggg5402gg504b010214g14g08g08gb456182b2d224c9afcggg5402gg0cggggggggggg
+gggggg6275696c6465722064617461504b0506gggg01g01g3aggg3601gggg
+**end of SQL Assist data**/
+}
+public static com.ibm.db.StatementMetaData SelectCorrAccountSQL() throws java.lang.Throwable {
+  String name = "com.overstar.bank.database.DocumentDAB.SelectCorrAccountSQL";
+  String statement = "SELECT QRSDTTST.PMRMPROP.PAYERCORRACCNOSTRO, QRSDTTST.PMRMPROP.PAYERNAME, QRSDTTST.PMRMPROP.RECEIVERCORRACCNOSTRO, QRSDTTST.PMRMPROP.RECEIVERNAME, QRSDTTST.PMRMPROP.GROUND FROM QRSDTTST.PMRMPROP WHERE ( ( QRSDTTST.PMRMPROP.PAYMENTID = :PAYMENTID ) )";
+
+  StatementMetaData aSpec = null;
+  try{
+	aSpec = new com.ibm.db.StatementMetaData();
+	aSpec.setName(name);
+	aSpec.setSQL(statement);
+	aSpec.addTable("QRSDTTST.PMRMPROP");
+	aSpec.addColumn("PMRMPROP.PAYERCORRACCNOSTRO", 1,1);
+	aSpec.addColumn("PMRMPROP.PAYERNAME", 1,1);
+	aSpec.addColumn("PMRMPROP.RECEIVERCORRACCNOSTRO", 1,1);
+	aSpec.addColumn("PMRMPROP.RECEIVERNAME", 1,1);
+	aSpec.addColumn("PMRMPROP.GROUND", 1,1);
+	aSpec.addParameter("PAYMENTID", 4, 4);
+	// user code begin {1} 
+	// user code end {1}
+  }
+  catch(java.lang.Throwable e){
+	// user code begin {2} 
+	// user code end {2}
+	throw e;
+  }
+  return aSpec;
+/*V2.0
+**start of SQL Assist data**
+504b030414g08g08gea75172bgggggggggggg0cggg6275696c64657220646174618d93cd4ac3401485
+6f5383d68220ed4a2874a3e026cc4cdadad855484329981f27b1225d942c6a514ad13a114170e5e3d897f1190471e13b9849
+11cd4c222e66f3cd39f7dedc9379f904355e427d3c3eb98eee236d1e2d665ac096578b598f3895d533793b57g1e6ega099
+086b39bad5ebe8fda3f138f8d6290cca046106251cdfc213286ba6ea884c5a0cf64e69d03743330c42cd77a8e353cfd706d4
+3b73fb925c67d0cc9353dbb287239bbaa6634b26c2e0f02f93e5516a5a96eb0521f52477327723cfed9b1705fd1083834247
+61b34d82ba13c4cdc29a30d239ade594cce80832b84ebd8ce67753e1a69dd64502fd57ddb29146d7ce780d1e1d075bbf71a9
+939c7d49a87350cd08db0caa3f7d7b928570b02361ccc1ae841107f5ccd0ba3c741923222e37613867311dbe188588b8c571
+2589d1b1dd70d8176ed3e037d8329e0ab11ead63dd3ece771a490e2d69b02e1f4caa968a75e917e154fab694caafce58c75e
+c25f504b07087d5e8cc26801ggeb03gg504b010214g14g08g08gea75172b7d5e8cc26801ggeb03gg0cggg
+gggggggggggggg6275696c6465722064617461504b0506gggg01g01g3aggga201gggg
+**end of SQL Assist data**/
+}
+public static com.ibm.db.StatementMetaData SelectDocument$SQL() throws java.lang.Throwable {
+  String name = "com.overstar.bank.database.DocumentDAB.SelectDocumentSQL";
+//1.  String statement = "SELECT QRSDTTST.ARHDOC$.DATE_CARRY, QRSDTTST.ARHDOC$.KINDCODE_PAYER, QRSDTTST.ARHDOC$.CODE_PAYER, QRSDTTST.ARHDOC$.REAL_PAYER, QRSDTTST.ARHDOC$.KINDCODE_RECEIVER, QRSDTTST.ARHDOC$.CODE_RECEIVER, QRSDTTST.ARHDOC$.REAL_RECEIVER, QRSDTTST.ARHDOC$.SUM, QRSDTTST.ARHDOC$.IAPPLICATIONKIND, QRSDTTST.ARHDOC$.APPLICATIONKEY, QRSDTTST.ARHDOC$.PAYER, QRSDTTST.ARHDOC$.RECEIVER, QRSDTTST.ARHDOC$.GROUND FROM QRSDTTST.ARHDOC$ WHERE ( ( QRSDTTST.ARHDOC$.DATE_CARRY between :DATE1 and :DATE2 ) AND (( QRSDTTST.ARHDOC$.REAL_PAYER like :ACCOUNT ) OR ( QRSDTTST.ARHDOC$.REAL_RECEIVER like :ACCOUNT1 )) ) ORDER BY QRSDTTST.ARHDOC$.DATE_CARRY";
+  String statement = "SELECT QRSDTTST.ARHDOC$.DATE_CARRY, QRSDTTST.ARHDOC$.KINDCODE_PAYER, QRSDTTST.ARHDOC$.CODE_PAYER, QRSDTTST.ARHDOC$.REAL_PAYER, QRSDTTST.ARHDOC$.KINDCODE_RECEIVER, QRSDTTST.ARHDOC$.CODE_RECEIVER, QRSDTTST.ARHDOC$.REAL_RECEIVER, QRSDTTST.ARHDOC$.SUM, QRSDTTST.ARHDOC$.IAPPLICATIONKIND, QRSDTTST.ARHDOC$.APPLICATIONKEY, QRSDTTST.ARHDOC$.PAYER, QRSDTTST.ARHDOC$.RECEIVER, QRSDTTST.ARHDOC$.GROUND, QRSDTTST.ARHDOC$.CorAcc_Receiver, QRSDTTST.ARHDOC$.CorAcc_Payer, QRSDTTST.ARHDOC$.Account_Receiver, QRSDTTST.ARHDOC$.Account_Payer FROM QRSDTTST.ARHDOC$ WHERE ( ( QRSDTTST.ARHDOC$.DATE_CARRY between :DATE1 and :DATE2 ) AND (( QRSDTTST.ARHDOC$.REAL_PAYER like :ACCOUNT ) OR ( QRSDTTST.ARHDOC$.REAL_RECEIVER like :ACCOUNT1 )) ) ORDER BY QRSDTTST.ARHDOC$.DATE_CARRY";
+//3.  String statement = "SELECT QRSDTTST.ARHDOC$.DATE_CARRY, QRSDTTST.ARHDOC$.KINDCODE_PAYER, QRSDTTST.ARHDOC$.CODE_PAYER, QRSDTTST.ARHDOC$.REAL_PAYER, QRSDTTST.ARHDOC$.KINDCODE_RECEIVER, QRSDTTST.ARHDOC$.CODE_RECEIVER, QRSDTTST.ARHDOC$.REAL_RECEIVER, QRSDTTST.ARHDOC$.SUM, QRSDTTST.ARHDOC$.IAPPLICATIONKIND, QRSDTTST.ARHDOC$.APPLICATIONKEY, QRSDTTST.ARHDOC$.PAYER, QRSDTTST.ARHDOC$.RECEIVER, QRSDTTST.ARHDOC$.GROUND, QRSDTTST.ARHDOC$.CorAcc_Receiver, QRSDTTST.ARHDOC$.CorAcc_Payer, QRSDTTST.ARHDOC$.Account_Receiver, QRSDTTST.ARHDOC$.Account_Payer FROM QRSDTTST.ARHDOC$ WHERE ( ( QRSDTTST.ARHDOC$.DATE_CARRY between :DATE1 and :DATE2 ) AND (( QRSDTTST.ARHDOC$.REAL_PAYER = :ACCOUNT ) OR ( QRSDTTST.ARHDOC$.REAL_RECEIVER = :ACCOUNT1 )) ) ORDER BY QRSDTTST.ARHDOC$.DATE_CARRY";
+//2.  String statement = "SELECT QRSDTTST.ARHDOC$.DATE_CARRY, QRSDTTST.ARHDOC$.KINDCODE_PAYER, QRSDTTST.ARHDOC$.CODE_PAYER, QRSDTTST.ARHDOC$.REAL_PAYER, QRSDTTST.ARHDOC$.KINDCODE_RECEIVER, QRSDTTST.ARHDOC$.CODE_RECEIVER, QRSDTTST.ARHDOC$.REAL_RECEIVER, QRSDTTST.ARHDOC$.SUM, QRSDTTST.ARHDOC$.IAPPLICATIONKIND, QRSDTTST.ARHDOC$.APPLICATIONKEY, QRSDTTST.ARHDOC$.PAYER, QRSDTTST.ARHDOC$.RECEIVER, QRSDTTST.ARHDOC$.GROUND FROM QRSDTTST.ARHDOC$ WHERE ( (( QRSDTTST.ARHDOC$.REAL_PAYER like :ACCOUNT ) OR ( QRSDTTST.ARHDOC$.REAL_RECEIVER like :ACCOUNT1 )) ) ORDER BY QRSDTTST.ARHDOC$.DATE_CARRY";
+  StatementMetaData aSpec = null;
+  try{
+	aSpec = new com.ibm.db.StatementMetaData();
+	aSpec.setName(name);
+	aSpec.setSQL(statement);
+	aSpec.addTable("QRSDTTST.ARHDOC$");
+	aSpec.addColumn("ARHDOC$.DATE_CARRY", 91,91);
+	aSpec.addColumn("ARHDOC$.KINDCODE_PAYER", 5,5);
+	aSpec.addColumn("ARHDOC$.CODE_PAYER", 1,1);
+	aSpec.addColumn("ARHDOC$.REAL_PAYER", 1,1);
+	aSpec.addColumn("ARHDOC$.KINDCODE_RECEIVER", 5,5);
+	aSpec.addColumn("ARHDOC$.CODE_RECEIVER", 1,1);
+	aSpec.addColumn("ARHDOC$.REAL_RECEIVER", 1,1);
+	aSpec.addColumn("ARHDOC$.SUM", 3,3);
+	aSpec.addColumn("ARHDOC$.IAPPLICATIONKIND", 5,5);
+	aSpec.addColumn("ARHDOC$.APPLICATIONKEY", 1,1);
+	aSpec.addColumn("ARHDOC$.PAYER", 1,1);
+	aSpec.addColumn("ARHDOC$.RECEIVER", 1,1);
+	aSpec.addColumn("ARHDOC$.GROUND", 1,1);
+	aSpec.addParameter("DATE1", 91, 91);
+	aSpec.addParameter("DATE2", 91, 91);
+	aSpec.addParameter("ACCOUNT", 1, 1);
+	aSpec.addParameter("ACCOUNT1", 1, 1);
+	// user code begin {1}
+	aSpec.addColumn("ARHDOC$.CorAcc_Receiver", 1,1);
+	aSpec.addColumn("ARHDOC$.CorAcc_Payer", 1,1);
+	aSpec.addColumn("ARHDOC$.Account_Receiver", 1,1);
+	aSpec.addColumn("ARHDOC$.Account _Payer", 1,1);	
+	// user code end {1}
+  }
+  catch(java.lang.Throwable e){
+	// user code begin {2} 
+	// user code end {2}
+	throw e;
+  }
+  return aSpec;
+}
+public static com.ibm.db.StatementMetaData SelectDocumentSQL() throws java.lang.Throwable {
+  String name = "com.overstar.bank.database.DocumentDAB.SelectDocumentSQL";
+//1.  String statement = "SELECT QRSDTTST.ARHDOC.DATE_CARRY, QRSDTTST.ARHDOC.KINDCODE_PAYER, QRSDTTST.ARHDOC.CODE_PAYER, QRSDTTST.ARHDOC.REAL_PAYER, QRSDTTST.ARHDOC.KINDCODE_RECEIVER, QRSDTTST.ARHDOC.CODE_RECEIVER, QRSDTTST.ARHDOC.REAL_RECEIVER, QRSDTTST.ARHDOC.SUM, QRSDTTST.ARHDOC.IAPPLICATIONKIND, QRSDTTST.ARHDOC.APPLICATIONKEY, QRSDTTST.ARHDOC.PAYER, QRSDTTST.ARHDOC.RECEIVER, QRSDTTST.ARHDOC.GROUND FROM QRSDTTST.ARHDOC WHERE ( ( QRSDTTST.ARHDOC.DATE_CARRY between :DATE1 and :DATE2 ) AND (( QRSDTTST.ARHDOC.REAL_PAYER like :ACCOUNT ) OR ( QRSDTTST.ARHDOC.REAL_RECEIVER like :ACCOUNT1 )) ) ORDER BY QRSDTTST.ARHDOC.DATE_CARRY";
+  String statement = "SELECT QRSDTTST.ARHDOC.DATE_CARRY, QRSDTTST.ARHDOC.KINDCODE_PAYER, QRSDTTST.ARHDOC.CODE_PAYER, QRSDTTST.ARHDOC.REAL_PAYER, QRSDTTST.ARHDOC.KINDCODE_RECEIVER, QRSDTTST.ARHDOC.CODE_RECEIVER, QRSDTTST.ARHDOC.REAL_RECEIVER, QRSDTTST.ARHDOC.SUM, QRSDTTST.ARHDOC.IAPPLICATIONKIND, QRSDTTST.ARHDOC.APPLICATIONKEY, QRSDTTST.ARHDOC.PAYER, QRSDTTST.ARHDOC.RECEIVER, QRSDTTST.ARHDOC.GROUND, QRSDTTST.ARHDOC.CorAcc_Receiver, QRSDTTST.ARHDOC.CorAcc_Payer, QRSDTTST.ARHDOC.Account_Receiver, QRSDTTST.ARHDOC.Account_Payer FROM QRSDTTST.ARHDOC WHERE ( ( QRSDTTST.ARHDOC.DATE_CARRY between :DATE1 and :DATE2 ) AND (( QRSDTTST.ARHDOC.REAL_PAYER like :ACCOUNT ) OR ( QRSDTTST.ARHDOC.REAL_RECEIVER like :ACCOUNT1 )) ) ORDER BY QRSDTTST.ARHDOC.DATE_CARRY";
+//3.  String statement = "SELECT QRSDTTST.ARHDOC.DATE_CARRY, QRSDTTST.ARHDOC.KINDCODE_PAYER, QRSDTTST.ARHDOC.CODE_PAYER, QRSDTTST.ARHDOC.REAL_PAYER, QRSDTTST.ARHDOC.KINDCODE_RECEIVER, QRSDTTST.ARHDOC.CODE_RECEIVER, QRSDTTST.ARHDOC.REAL_RECEIVER, QRSDTTST.ARHDOC.SUM, QRSDTTST.ARHDOC.IAPPLICATIONKIND, QRSDTTST.ARHDOC.APPLICATIONKEY, QRSDTTST.ARHDOC.PAYER, QRSDTTST.ARHDOC.RECEIVER, QRSDTTST.ARHDOC.GROUND, QRSDTTST.ARHDOC.CorAcc_Receiver, QRSDTTST.ARHDOC.CorAcc_Payer, QRSDTTST.ARHDOC.Account_Receiver, QRSDTTST.ARHDOC.Account_Payer FROM QRSDTTST.ARHDOC WHERE ( ( QRSDTTST.ARHDOC.DATE_CARRY between :DATE1 and :DATE2 ) AND (( QRSDTTST.ARHDOC.REAL_PAYER = :ACCOUNT ) OR ( QRSDTTST.ARHDOC.REAL_RECEIVER = :ACCOUNT1 )) ) ORDER BY QRSDTTST.ARHDOC.DATE_CARRY";
+//2.  String statement = "SELECT QRSDTTST.ARHDOC.DATE_CARRY, QRSDTTST.ARHDOC.KINDCODE_PAYER, QRSDTTST.ARHDOC.CODE_PAYER, QRSDTTST.ARHDOC.REAL_PAYER, QRSDTTST.ARHDOC.KINDCODE_RECEIVER, QRSDTTST.ARHDOC.CODE_RECEIVER, QRSDTTST.ARHDOC.REAL_RECEIVER, QRSDTTST.ARHDOC.SUM, QRSDTTST.ARHDOC.IAPPLICATIONKIND, QRSDTTST.ARHDOC.APPLICATIONKEY, QRSDTTST.ARHDOC.PAYER, QRSDTTST.ARHDOC.RECEIVER, QRSDTTST.ARHDOC.GROUND FROM QRSDTTST.ARHDOC WHERE ( (( QRSDTTST.ARHDOC.REAL_PAYER like :ACCOUNT ) OR ( QRSDTTST.ARHDOC.REAL_RECEIVER like :ACCOUNT1 )) ) ORDER BY QRSDTTST.ARHDOC.DATE_CARRY";
+  StatementMetaData aSpec = null;
+  try{
+	aSpec = new com.ibm.db.StatementMetaData();
+	aSpec.setName(name);
+	aSpec.setSQL(statement);
+	aSpec.addTable("QRSDTTST.ARHDOC");
+	aSpec.addColumn("ARHDOC.DATE_CARRY", 91,91);
+	aSpec.addColumn("ARHDOC.KINDCODE_PAYER", 5,5);
+	aSpec.addColumn("ARHDOC.CODE_PAYER", 1,1);
+	aSpec.addColumn("ARHDOC.REAL_PAYER", 1,1);
+	aSpec.addColumn("ARHDOC.KINDCODE_RECEIVER", 5,5);
+	aSpec.addColumn("ARHDOC.CODE_RECEIVER", 1,1);
+	aSpec.addColumn("ARHDOC.REAL_RECEIVER", 1,1);
+	aSpec.addColumn("ARHDOC.SUM", 3,3);
+	aSpec.addColumn("ARHDOC.IAPPLICATIONKIND", 5,5);
+	aSpec.addColumn("ARHDOC.APPLICATIONKEY", 1,1);
+	aSpec.addColumn("ARHDOC.PAYER", 1,1);
+	aSpec.addColumn("ARHDOC.RECEIVER", 1,1);
+	aSpec.addColumn("ARHDOC.GROUND", 1,1);
+	aSpec.addParameter("DATE1", 91, 91);
+	aSpec.addParameter("DATE2", 91, 91);
+	aSpec.addParameter("ACCOUNT", 1, 1);
+	aSpec.addParameter("ACCOUNT1", 1, 1);
+	// user code begin {1}
+	aSpec.addColumn("ARHDOC.CorAcc_Receiver", 1,1);
+	aSpec.addColumn("ARHDOC.CorAcc_Payer", 1,1);
+	aSpec.addColumn("ARHDOC.Account_Receiver", 1,1);
+	aSpec.addColumn("ARHDOC.Account _Payer", 1,1);	
+	// user code end {1}
+  }
+  catch(java.lang.Throwable e){
+	// user code begin {2} 
+	// user code end {2}
+	throw e;
+  }
+  return aSpec;
+}
+public static com.ibm.db.StatementMetaData SelectRestSQL() throws java.lang.Throwable {
+  String name = "com.overstar.bank.database.DocumentDAB.SelectRestSQL";
+//  String statement = "SELECT QRSDTTST.RESTDATE.REST, QRSDTTST.RESTDATE.DATE_VALUE FROM QRSDTTST.RESTDATE WHERE ( ( QRSDTTST.RESTDATE.ACCOUNT = :ACCOUNT ) AND ( QRSDTTST.RESTDATE.DATE_VALUE < :DATE1 ) ) ORDER BY QRSDTTST.RESTDATE.DATE_VALUE DESC";
+  String statement = "SELECT QRSDTTST.RESTDATE.REST, QRSDTTST.RESTDATE.DATE_VALUE FROM QRSDTTST.RESTDATE WHERE ( ( QRSDTTST.RESTDATE.ACCOUNT like :ACCOUNT ) AND ( QRSDTTST.RESTDATE.DATE_VALUE < :DATE1 ) ) ORDER BY QRSDTTST.RESTDATE.DATE_VALUE DESC";
+  StatementMetaData aSpec = null;
+  try{
+	aSpec = new com.ibm.db.StatementMetaData();
+	aSpec.setName(name);
+	aSpec.setSQL(statement);
+	aSpec.addTable("QRSDTTST.RESTDATE");
+	aSpec.addColumn("RESTDATE.REST", 3,3);
+	aSpec.addColumn("RESTDATE.DATE_VALUE", 91,91);
+	aSpec.addParameter("ACCOUNT", 1, 1);
+	aSpec.addParameter("DATE1", 91, 91);
+	// user code begin {1} 
+	// user code end {1}
+  }
+  catch(java.lang.Throwable e){
+	// user code begin {2} 
+	// user code end {2}
+	throw e;
+  }
+  return aSpec;
+}
+}

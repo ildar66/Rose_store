@@ -1,0 +1,7 @@
+Given a string, this method replaces all occurrences of
+'<' with '&lt;', all occurrences of '>' with
+'&gt;', and (to handle cases that occur inside attribute
+values), all occurrences of double quotes with
+'&quot;' and all occurrences of '&' with '&amp;'.
+Without such filtering, an arbitrary string
+could not safely be inserted in a Web page.

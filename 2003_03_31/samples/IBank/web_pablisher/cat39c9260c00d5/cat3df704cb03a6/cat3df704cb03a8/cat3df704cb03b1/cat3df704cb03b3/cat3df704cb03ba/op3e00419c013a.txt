@@ -1,0 +1,4 @@
+State setter.
+Creation date: (18.09.2002 18:10:41)
+@param newState com.overstar.ildar.ibank.model.IBank.IBankState
+

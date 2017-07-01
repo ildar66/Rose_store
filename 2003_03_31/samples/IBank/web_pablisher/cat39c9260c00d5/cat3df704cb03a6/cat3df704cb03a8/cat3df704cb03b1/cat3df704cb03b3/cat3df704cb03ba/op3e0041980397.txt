@@ -1,0 +1,10 @@
+This constructor will create a new instance
+creating a primary key by itself.
+Its associated IClientReader, ...
+instances are also created.
+The created IBank is in the OUT_OF_ORDER state.
+Creation date: (18.09.2002 17:32:06)
+@throws com.overstar.ildar.ibank.model.PersistenceException
+@exception com.overstar.ildar.ibank.model.PersistenceException The exception 
+description.
+

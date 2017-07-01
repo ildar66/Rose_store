@@ -1,0 +1,5 @@
+Insert the method's description here.
+Creation date: (13.03.2003 10:54:14)
+@return java.lang.String
+@param name1 int
+@param name2 int

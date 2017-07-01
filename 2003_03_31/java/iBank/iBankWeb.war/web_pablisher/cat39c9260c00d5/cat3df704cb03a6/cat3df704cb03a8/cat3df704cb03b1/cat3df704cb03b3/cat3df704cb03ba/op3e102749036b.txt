@@ -1,0 +1,10 @@
+Payment constructor comment.
+@param anId com.overstar.ildar.ibank.model.Document.DocumentPK
+@param anClient_id java.lang.Integer
+@param anDate_doc java.sql.Date
+@param anNum_doc java.lang.String
+@param anStatus_doc java.lang.String
+@param anSigners java.lang.String
+@param anDoc_type int
+@exception com.overstar.ildar.ibank.model.PersistenceException The exception description.
+

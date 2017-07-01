@@ -1,0 +1,6 @@
+Signal that the IBank has timed out.
+NOTE: A better implementation of IBank would keep track of timeouts itself.
+A call to this method makes the IClientreader
+eject the IClient and will make the IBank READY_TO_USE again.
+Creation date: (18.09.2002 18:31:54)
+@exception java.lang.IllegalStateException The exception description.

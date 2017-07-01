@@ -1,0 +1,3 @@
+@return com.ibm.db.StatementMetaData
+@throws java.lang.Throwable
+

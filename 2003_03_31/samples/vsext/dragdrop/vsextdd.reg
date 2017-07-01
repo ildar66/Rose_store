@@ -1,0 +1,25 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Rational Software]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Rational Software\Rose]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Rational Software\Rose\AddIns]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Rational Software\Rose\AddIns\VSExtDD]
+"Active"="Yes"
+"Company"="Rational Software Corporation"
+"InstallDir"=""
+"MenuFile"=""
+"HelpFileName"=""
+"PropertyFile"=""
+"LanguageAddIn"="No"
+"Version"="1.0"
+"OLEServer"="VSExtDD.Connection"
+"StereotypeCfgFile"=""
+"ToolName"=""
+"ToolDisplayName"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Rational Software\Rose\AddIns\VSExtDD\Events]
+"OnActivate"="Interface"
+"OnDeactivate"="Interface"

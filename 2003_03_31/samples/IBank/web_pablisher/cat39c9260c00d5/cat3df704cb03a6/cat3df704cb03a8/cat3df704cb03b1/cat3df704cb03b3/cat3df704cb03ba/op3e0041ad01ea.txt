@@ -1,0 +1,4 @@
+Is this instance positive (0 inclusive) ?
+Creation date: (04.09.2002 12:32:48)
+@return boolean
+

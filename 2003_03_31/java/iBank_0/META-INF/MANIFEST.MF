@@ -1,0 +1,1765 @@
+Signature Version 1.0
+
+
+Name:	com/overstar/ildar/ibank/model/Bank.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	K8oT6F5G1gSj1kNHxAlbGQSZjxc=
+MD5-Digest:	1grUxUfmUR821Em3vX+MHg==
+
+Name:	com/overstar/ildar/ibank/model/BankAccount.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	j4O/AKhv5xgQD8uBkBn3sgDjEhU=
+MD5-Digest:	j04BSS/xPTAnxC18iSKrkg==
+
+Name:	com/overstar/ildar/ibank/model/BankAccountDAB.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	RN3vtDuVwLOO60S9V6b3BL2OC5Y=
+MD5-Digest:	9/dcW11r7tbrqGywrSAVJQ==
+
+Name:	com/overstar/ildar/ibank/model/BankAccountData.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	UVKyJCpyYGO1sYX6q7AcPAP0hoA=
+MD5-Digest:	6PXApADInRlEMx4AT5IQjw==
+
+Name:	com/overstar/ildar/ibank/model/BankAccountNotFoundException.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	XzCQ6bHHmn0fltui1ROfdDggNhg=
+MD5-Digest:	svZExhRKOOCjsnkAUjnMbA==
+
+Name:	com/overstar/ildar/ibank/model/BankDAB.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	DhfHw9iWksH/sYTBmrkGgCTmooE=
+MD5-Digest:	TjMs8976/Z6mIxEUMfwGjQ==
+
+Name:	com/overstar/ildar/ibank/model/BankNotFoundException.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	+Hvb54sah6tr6j5+zP5FJWJNQTk=
+MD5-Digest:	k8kNVNYajkKBrQWGruK2ZQ==
+
+Name:	javax/naming/CannotProceedException.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	IW64ucLz5P2B1XiCvztikduLhFM=
+MD5-Digest:	lvT6km/90wBhILjCNGlrdw==
+
+Name:	com/overstar/ildar/ibank/servlets/ChooseActionServlet.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	xzK6s9DYyXjNlX0k5P+5oqeN5kg=
+MD5-Digest:	mQEIsiRFCwhTDVPJf28wDA==
+
+Name:	com/overstar/ildar/ibank/servlets/ChooseDocumentActionServlet.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	FOJ/xs71klpUZU48A22s8C7YMew=
+MD5-Digest:	tgB1NQxUd/ga7brtjF0iUA==
+
+Name:	com/overstar/ildar/ibank/servlets/ChooseDocumentsServlet.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	RpVBvfh5mm1piv+ZeBlE+hbU/ss=
+MD5-Digest:	+OzBaRFVANWdTWmkpZeFOw==
+
+Name:	com/overstar/ildar/ibank/servlets/ChooseRecipientActionServlet.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	BJGntP8R8iIbHgMJZ0YmLCnG1pY=
+MD5-Digest:	tk8sWqVnAl5dupv+i0bdmg==
+
+Name:	com/overstar/ildar/ibank/servlets/ChooseRecipientServlet.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	7uub4dgRSZJl8pOi0DfnSYkUoiM=
+MD5-Digest:	AOPQ9ryTd0pDfGhuXL+0lg==
+
+Name:	javax/naming/CompositeName.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	qXH/LpIoVcFT1l9Tkk51FDUcVBo=
+MD5-Digest:	8HkZ8TPHBrKQQSNfg1boWw==
+
+Name:	javax/naming/ConfigurationException.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	fB5h3UIh2XragTGlkghnBkbdBSQ=
+MD5-Digest:	/tDWg7PvXfjjr8xfLuaPdw==
+
+Name:	javax/naming/Context.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	9zmUAKtaWPg6C5fwVXuHEx6LQG0=
+MD5-Digest:	SA3gsHRBVyqgbIDATZrKHA==
+
+Name:	javax/naming/spi/ContinuationContext.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	e7OedebT7X4tCeZ4dnliSDKwOc8=
+MD5-Digest:	UxTepacQp/pvlgYIsZH4Qw==
+
+Name:	com/ibm/ivj/db/uibeans/DataAfterEventMulticaster.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	ZDYv9vO0QAyYyrnh5o8YQOundo4=
+MD5-Digest:	+1xsCBivTwrnVk7tIUUAmg==
+
+Name:	com/ibm/ivj/db/uibeans/DataAfterListener.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	pHj0lczMgMJwtTkJ4eC9Ue80hw0=
+MD5-Digest:	L0xXmKzAA5glHvFFprhVyA==
+
+Name:	com/ibm/ivj/db/uibeans/DatabaseAccess.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	t2653yVtXVRiqHqe0hNld+kIRaA=
+MD5-Digest:	SX2n1gDArePufFJlggNn/A==
+
+Name:	com/ibm/db/base/DatabaseBinaryField.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	LORYPoQPquuKTsmcRhilNRJUIyo=
+MD5-Digest:	ozadVoTSADSz2CAun/XS5A==
+
+Name:	com/ibm/db/base/DatabaseBLOBField.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	qS83Z+ZSZuehXesSrK7npiNchVw=
+MD5-Digest:	uQAu6DzTD2l+rJC6HN3hvA==
+
+Name:	com/ibm/db/base/DatabaseBooleanField.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	qT0fR6wwy4jjZUbxTxhrpJjMDRo=
+MD5-Digest:	nZeK0EfkY92fQQJn3qOb9A==
+
+Name:	com/ibm/db/base/DatabaseCLOBField.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	Oy/tsMvfAdaVHxvMYY6yRIEQDwg=
+MD5-Digest:	U3dod8dLnUUsr9dgSDFgSg==
+
+Name:	com/ibm/db/base/DatabaseCompoundType.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	aPjQnPSBaPRvr/f2NoCgXBSPJIE=
+MD5-Digest:	S08pLzGKjbPXrrAXcJJZtw==
+
+Name:	com/ibm/db/base/DatabaseConnection.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	3ikLdQpmpRZ0lkUwg3EzWFOY/WM=
+MD5-Digest:	KpWdFsw3jIo5HTAPwNItMA==
+
+Name:	com/ibm/db/DatabaseConnection.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	ECkrYQaX1ziv70G5Vqq0cgnk4QI=
+MD5-Digest:	tJNohsARyr0g1yfNmyjSNw==
+
+Name:	com/ibm/db/DatabaseConnectionAfterEventMulticaster.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	vEZWh3xW4Z38tBDptIJzsKoyAIg=
+MD5-Digest:	bfeE5dFqhyOwgWPXa18M/Q==
+
+Name:	com/ibm/db/DatabaseConnectionAfterListener.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	VL2/HjYzQ3YTmn16Ivsn8CeN+m4=
+MD5-Digest:	90D+I+YJOdeq/n7Sr7kz2Q==
+
+Name:	com/ibm/db/DatabaseConnectionBeforeEventMulticaster.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	gFPlFmxABscjy5vt9nJgYS3qSjE=
+MD5-Digest:	fNTLoP2GiIDew0jIy3dvPA==
+
+Name:	com/ibm/db/DatabaseConnectionBeforeListener.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	vaeAd0gzaxx7j3HdZHgJVZg25Tg=
+MD5-Digest:	yDhBSKNQRDUwRM5XhDuMQQ==
+
+Name:	com/ibm/db/base/DatabaseConnectionSpec.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	PRlJ+NFFtvXOkrHKj40mDE20pJo=
+MD5-Digest:	iwjGpCaEdjFHGBpr6xcLUA==
+
+Name:	com/ibm/db/base/DatabaseDataLinkField.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	RS9M+qHh31G/IyKraWHO0wsnpN0=
+MD5-Digest:	xJpNbeL0AUDJSWtGToflOw==
+
+Name:	com/ibm/db/base/DatabaseDateField.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	8KAeY23s/vVrD1+LnEkAf5618Hg=
+MD5-Digest:	tjFIxPqfnXTIDsIxvNZBXg==
+
+Name:	com/ibm/db/base/DatabaseDecimalField.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	vrO3nafXiG/zTXpY1GmdNWIuzYo=
+MD5-Digest:	Y7l1DiVcx+WKd3j1YSk4OQ==
+
+Name:	com/ibm/db/base/DatabaseDoubleField.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	/skOeDSHF2JSI1OaZcyujwWNXNQ=
+MD5-Digest:	0fkzj0VOAUVRA8tTt5LZpw==
+
+Name:	com/ibm/db/base/DatabaseFloatField.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	xpSujdsdRjU9BxpqXWAdUrPgaZc=
+MD5-Digest:	I5371V0cZgbWNjSrqYt6Ww==
+
+Name:	com/ibm/db/base/DatabaseIntegerField.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	j00/jzqFjxXR8UC6DgOVA61p1Sw=
+MD5-Digest:	8yF5WLo+ONiCZa/amwJ8DQ==
+
+Name:	com/ibm/db/base/DatabaseLogonSpec.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	+wU5emzWGTojTzGZ61v94KQIb5I=
+MD5-Digest:	yWGo/xFTEfvez2qqIEXaMA==
+
+Name:	com/ibm/db/base/DatabaseLongIntegerField.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	GMbMWtU9ka6vYJl/YJSCDGi+D2g=
+MD5-Digest:	SojOI8Fsyjcjr/pusjIu5g==
+
+Name:	com/ibm/db/base/DatabaseObjectField.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	ufhPptoI9i7MaIi87K/BKlzHL6w=
+MD5-Digest:	i+J3YaZZs7aTp92+xeeFlQ==
+
+Name:	com/ibm/db/base/DatabaseQuerySpec.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	mLVi0AMXQ0ZSL+riV/iszdXGNOw=
+MD5-Digest:	tabPxnyVxU+xnjMGUZhPyA==
+
+Name:	com/ibm/db/base/DatabaseResultTable.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	/Zgq1B7Qyrg4u5vrQxL/8myUaVU=
+MD5-Digest:	BcOnVCD7upkBUDOreeQy1Q==
+
+Name:	com/ibm/db/base/DatabaseResultTableParent.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	XcCAaHhC8KDOKyQ3Jgb3RlFErN8=
+MD5-Digest:	v4HoAmf+QbKxpRZhBt/sZA==
+
+Name:	com/ibm/db/base/DatabaseRow.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	NkXmk/H1SBmcdCrx2nwGjdslQjg=
+MD5-Digest:	mVS5sNaXrNLxyGOEclyuzA==
+
+Name:	com/ibm/db/base/DatabaseShortIntegerField.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	himjn8uPoPYsnjOmZQbwu3FgNDw=
+MD5-Digest:	SqsRGhaufu8ygXfnRD3dHw==
+
+Name:	com/ibm/db/base/DatabaseStatement.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	VkKh6FzEqzHLsld7bh1IdQfJVac=
+MD5-Digest:	AykFptg2ZYhW9+jdc1193w==
+
+Name:	com/ibm/db/base/DatabaseStringField.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	OZu9Oz1dN13omzEQZmktKvTwSuA=
+MD5-Digest:	mu28s3n7Crqbs3EjOUZDmg==
+
+Name:	com/ibm/db/base/DatabaseTimeField.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	3tQTORCf9KsTmiOoHQhwJ6GLdfc=
+MD5-Digest:	dRktTMeIRnuMTzFDorv0/g==
+
+Name:	com/ibm/db/base/DatabaseTimestampField.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	Wk9ohvE9m0GvedA1UkfPhDPT1xk=
+MD5-Digest:	aD2TdYv32wn33+gSrMHHVw==
+
+Name:	com/ibm/db/base/DatabaseTypeField.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	oOSEjDFRMBOlSrF83z2TMk62ccc=
+MD5-Digest:	57imQcp7SWXvyXa7pwJwfg==
+
+Name:	com/ibm/ivj/db/uibeans/DataBeforeEventMulticaster.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	DijsNAlNcdc6Dc2z2KzJ7XI/IfA=
+MD5-Digest:	RFM/cbM3IFYofGljJZA5mw==
+
+Name:	com/ibm/ivj/db/uibeans/DataBeforeListener.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	WYGSrhg2UsaC7u6262pIMpCSAE4=
+MD5-Digest:	yfmYzDjb3NzdGjLEmgqmFQ==
+
+Name:	com/ibm/db/DataEvent.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	yfciMSNiUQZqdqgk63GtoURt9TE=
+MD5-Digest:	s/bNZBCrCj8+6miIvB+mhQ==
+
+Name:	com/ibm/db/DataException.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	9yszlAIjmh2+i3sPSW9mi0YSO60=
+MD5-Digest:	kjJftwtBSnJxKKuGqKRUVw==
+
+Name:	com/ibm/db/base/DataException.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	San75K/gs0CM02ie9KVN/4gYLtM=
+MD5-Digest:	tqMxbzJFzB83QfBWcpxU2w==
+
+Name:	com/ibm/db/base/DataRuntimeException.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	GcAgcjaq1JERHhSIaqconQqFzbk=
+MD5-Digest:	gMNZz/pXsxC3TpKMtk7WJg==
+
+Name:	com/ibm/db/DataRuntimeException.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	HNjlOXtKibDRfLsZxLtvCeMZ4iQ=
+MD5-Digest:	4LO/jbOSxe3GKFZMJ8s07w==
+
+Name:	javax/sql/DataSource.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	4+Hdxe0A6Fpi3KibmAmzuLzlNdc=
+MD5-Digest:	Czf9vyeFjMWV1/9/cnNFrw==
+
+Name:	javax/naming/directory/DirContext.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	xwjJ90lelJXrkoVbdxxXjHRCkWU=
+MD5-Digest:	eLBGMtXJHBeMJrElO9Po6w==
+
+Name:	com/overstar/ildar/ibank/model/Document.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	Za3axoE9PE94XxOorCJjPtS6UzE=
+MD5-Digest:	0bBW3HMrluuCOmBssOZLlw==
+
+Name:	com/sun/naming/internal/FactoryEnumeration.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	fAx1NninY/IvBAS5tfpRjDJ8Loo=
+MD5-Digest:	Xdg1Lfnsi9KfGIlF7qPpUw==
+
+Name:	com/overstar/ildar/ibank/model/IBank.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	hFoaYXcRS6LcP/edOCbZnC+VRG0=
+MD5-Digest:	/uX0zSrSiciX2EQZpE0PWA==
+
+Name:	com/ibm/db/base/IBMDBBaseMessages.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	JGr2QQB6UAZcPqdXxY/j6US/kns=
+MD5-Digest:	95LAScVeH+f6xmddh/xTug==
+
+Name:	com/ibm/db/IBMDBMessages.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	mu51m3AYggndCsbGBahNfKUrRZk=
+MD5-Digest:	luq935jFoNnjhCQeMY0kMg==
+
+Name:	com/ibm/ivj/db/uibeans/IBMIVJDBMessages.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	yD3w9EcgSt1eKvwQt/cs0ChCQTM=
+MD5-Digest:	iqbKwnLXA/WlHVbglafc0w==
+
+Name:	com/overstar/ildar/ibank/model/IClient.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	ir0OYguyb2pUQolzi0h/b7uieNw=
+MD5-Digest:	8lO6/yrYRdX2oHdfmnC95w==
+
+Name:	com/overstar/ildar/ibank/model/IClientDAB.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	hNS00+CYE88U+8QuiHk7NF4YcbA=
+MD5-Digest:	YlwAqxR+1gU7jA/p3FWJcA==
+
+Name:	com/overstar/ildar/ibank/model/IClientNotFoundException.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	7gX980V+UopqFp0CUC4D+5yKcZ0=
+MD5-Digest:	GaEoTzwjNENr2J2dCdXolQ==
+
+Name:	com/overstar/ildar/ibank/model/IClientReader.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	QRQJDdavFjE80htmJUOVfe9Db7Y=
+MD5-Digest:	RrwfIf+Wh8qgUCmrry1Hxw==
+
+Name:	javax/naming/InitialContext.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	ZQBjL0Jf+7x5eJ/3Tf4KMM5to9k=
+MD5-Digest:	ulSgkJNEo5mhMth2Jw4kag==
+
+Name:	javax/naming/spi/InitialContextFactory.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	xJTyYqM+c1jjeiit5Ctbs41bZX0=
+MD5-Digest:	o2//NtT2SzTiB/DHbsPArQ==
+
+Name:	javax/naming/spi/InitialContextFactoryBuilder.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	BksLBl7YiOXy+CELrK9JcM0kt50=
+MD5-Digest:	MeIrl3W2KKi5+7wVqLQUdw==
+
+Name:	com/overstar/ildar/ibank/servlets/InsertIClientServlet.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	6dvmQ0BdmMvh+tMYY+KCn7deDTs=
+MD5-Digest:	/DETTh00s1zNleELV0HM7g==
+
+Name:	com/overstar/ildar/ibank/model/InvalidIClientException.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	cYIL4xGVDxdvTrF06mwQpfjezI0=
+MD5-Digest:	jl1CjiZ8h4r9UTs8iaYpFA==
+
+Name:	javax/naming/InvalidNameException.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	mdNzP136dNPB5BZtwr/IuPgRDfI=
+MD5-Digest:	OFAhnTD260j7Vp0SoFL/Pw==
+
+Name:	com/overstar/ildar/ibank/model/InvalidPINException.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	2na5AwMV9IS+r4o9euDZHjz7Gbc=
+MD5-Digest:	OfC62AjS+Uzq3VKXY1fzsA==
+
+Name:	com/ibm/db/base/JDBCConnectionManager.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	EQNgoieyCDxGaE9TfToyRsaFRqE=
+MD5-Digest:	nsVXHD2yO3iSfxmeJkqfEQ==
+
+Name:	javax/naming/ldap/LdapContext.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	0+6gBY/wGCISO6S2oyOlQ21Zelg=
+MD5-Digest:	snMFHQd8t0MGgZHnGd5BCQ==
+
+Name:	com/ibm/db/LogonDialog.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	jGoYJts8WG51yzU/hX1MInUTmgk=
+MD5-Digest:	EgZ34LWgbbntx1DJt8AuZQ==
+
+Name:	com/overstar/ildar/ibank/servlets/LongLivedCookie.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	ARsAr+suynBQ40OtxjxM+tfBSM0=
+MD5-Digest:	TIqjFyydcodf/7rKrvTXWQ==
+
+Name:	com/ibm/ivj/db/uibeans/Modify.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	rnU25PuGEZYGV0SpDyTvU6bCN88=
+MD5-Digest:	9cjSTqQZUDDb4Ld/2xZEUQ==
+
+Name:	com/overstar/ildar/ibank/model/Money.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	VMsWREwgEK5u/L4RxfbeK3TTQVg=
+MD5-Digest:	VGG5vS6N8nrp1wxc9O30Dg==
+
+Name:	javax/naming/Name.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	dJ/vUfcZv+2Ve9isv7fiOr6oe4o=
+MD5-Digest:	Lc3fdo73wBrQ1ouPMDkHXQ==
+
+Name:	javax/naming/NameImpl.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	zpKbihhN7zCmUjIvQ7l+95Vgcjc=
+MD5-Digest:	PR8wsnwBmqX/8e9V7bUFhw==
+
+Name:	javax/naming/NameImplEnumerator.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	gvRaePNtg9npgP1OmGl+TXTULRY=
+MD5-Digest:	ZRgL970EjEtSUi6Bu5+2oA==
+
+Name:	javax/naming/NameParser.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	CKkn90ygvQ1cKXyXZugrQVN++mQ=
+MD5-Digest:	qj3muQxOFb8AuWjIW5bcew==
+
+Name:	javax/naming/NamingEnumeration.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	GTML/gCIY+CsPRfwBKTMGDkZ8f4=
+MD5-Digest:	1l93p+Oa1EO+Wwiy8Bu3JQ==
+
+Name:	javax/naming/NamingException.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	YrN2zmFEOXn7Vpe6W+dkhhqtl90=
+MD5-Digest:	dzLsoMbgA1ob1YiscSZK8w==
+
+Name:	javax/naming/spi/NamingManager.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	UnhFQIbkocUYgMA0VwDvjVJ8/GU=
+MD5-Digest:	+TMs2SgkSEYJhgsIH/zutw==
+
+Name:	javax/naming/NoInitialContextException.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	hfIfqOcYjJz3Oym5ztOxGk+fMD4=
+MD5-Digest:	RPN0goIcyrLqHVI5r+WBcw==
+
+Name:	javax/naming/spi/ObjectFactory.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	q5+k08dqR4awK/Z8+ocDU4g2Ig0=
+MD5-Digest:	fnuRPtmW2+DQ7heP9QYn/A==
+
+Name:	javax/naming/spi/ObjectFactoryBuilder.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	k6PWDnDXtjM6p3zZpqHQi5sBSC4=
+MD5-Digest:	bB1Gk4bHApj7cWiQEB6eiw==
+
+Name:	com/ibm/db/base/OrderedHashtable.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	f/gJN/gq4BvVj4q/IT3aPuVXCEI=
+MD5-Digest:	FGCIvqNGcawD9uRPUsznXA==
+
+Name:	com/overstar/ildar/ibank/model/Payment.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	Zrd1HmMmZsbFQgB6DJ35qP4vXq4=
+MD5-Digest:	8fSUrEruJyi+O+IV1NAeeQ==
+
+Name:	com/overstar/ildar/ibank/model/PaymentDAB.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	nOxaydtSLc/AxpA93p3Sv3hvI9s=
+MD5-Digest:	fh/FU74pVavk1lJ1cwyg8Q==
+
+Name:	com/overstar/ildar/ibank/model/PaymentNotFoundException.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	C3L1tuCnE2uckSof991K/wpG5wA=
+MD5-Digest:	lcXKAuM7goxwMedG6u8cOg==
+
+Name:	com/overstar/ildar/ibank/model/PersistenceException.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	YCk4rI5Mpf03VWgiDN4nomKQZrw=
+MD5-Digest:	QV3JkfoL3oHQt0Z/js+DBw==
+
+Name:	com/overstar/ildar/ibank/model/PrimaryKey.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	O2ZeL0Evt5KM6QC9YSpbSNFChrA=
+MD5-Digest:	MEoQcWBZoTCv0kxGNvZFYA==
+
+Name:	com/overstar/ildar/ibank/model/PrimaryKeyTwo.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	EhjultOgPphQTXqZVAJw57G/FCM=
+MD5-Digest:	MZF4Wo4pz1Q/ckhWL8Tf5A==
+
+Name:	com/ibm/ivj/db/uibeans/Query.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	Q347fwcAvufuDFbysoXG5uvQO6s=
+MD5-Digest:	fuTUqT+T3bRvw/SHtZbP2w==
+
+Name:	com/overstar/ildar/ibank/model/Recipient.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	JzY4mDtz0b92mU1tMIxIRPJlWU4=
+MD5-Digest:	YifVLFu9GY14FI/9KLXc4w==
+
+Name:	com/overstar/ildar/ibank/model/RecipientDAB.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	j4qU5qAwFmVM0c0mHfYXT2W6bYc=
+MD5-Digest:	F3/m9sv0VCrRM3vyJxG7NQ==
+
+Name:	com/overstar/ildar/ibank/model/RecipientNotFoundException.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	7H0C6xRvzpQCwxAA1MHhNsNBhjI=
+MD5-Digest:	wdJBKHLVl/9eDhEv6tj6ZA==
+
+Name:	javax/naming/RefAddr.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	nZGQn1LOarLpuTh6tZ9wZJXEdbg=
+MD5-Digest:	CDaUb/UERmED4Pg3kqmquw==
+
+Name:	javax/naming/Reference.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	E6zQTDX0HJtjGHOpdzlUHQGuP+0=
+MD5-Digest:	82dJjo93kJcSle17lGuYOA==
+
+Name:	javax/naming/Referenceable.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	q0gCtKsTq7XaVjrEqk5i+xkHmLQ=
+MD5-Digest:	A5X2zIe+sxd/hVI4lO5iPQ==
+
+Name:	com/ibm/db/base/RegisteredConnection.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	ADbibXBtqGBhMSb7N3op5+bN5lg=
+MD5-Digest:	KMCycGFgvRIDv7HXr99B/g==
+
+Name:	javax/naming/spi/Resolver.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	UcoWddn22W8tzZ+T+uHLJ7EAU7g=
+MD5-Digest:	TrA31D6mKaEJIXDzGe3iOg==
+
+Name:	javax/naming/spi/ResolveResult.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	uY+CunLZ8NGCYfhfOuAXKYGwz/o=
+MD5-Digest:	2jJanHiwI9elu8GQrNyzWQ==
+
+Name:	com/sun/naming/internal/ResourceManager.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	qE/i/Jih/gjo5wYzdKO94WBZy0I=
+MD5-Digest:	4IxKxjWbe4eTdpRJfs0tnw==
+
+Name:	com/overstar/ildar/ibank/model/RunningAccount.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	i801Z3RAkoJxfYYt8zYgpcjjA1A=
+MD5-Digest:	OGEM47iCrDZHsuJLWQxh5Q==
+
+Name:	com/ibm/ivj/db/uibeans/Select.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	GEmdTpZYyQ6GVizwyt2lcLF6Y98=
+MD5-Digest:	eOirgFHjkUlhD8pLX/fF+Q==
+
+Name:	com/ibm/db/SelectResult.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	L9nTtJPOG+UZDGs553S0WbSd5tg=
+MD5-Digest:	6hD4JJp+b1gs8TrrdG8gfA==
+
+Name:	com/ibm/db/SelectStatement.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	zT12YKCA39b+NsxUU+c4csdUpaQ=
+MD5-Digest:	8XEWfhDntWHZez6y7LQMqA==
+
+Name:	com/overstar/ildar/ibank/servlets/ServletUtilities.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	OeHcYsqd4TaHRh+uYQ2m1wIyX8k=
+MD5-Digest:	dUkgtlBULdPjx/Nzsl0gZw==
+
+Name:	com/overstar/ildar/ibank/model/SettlementAccount.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	B085tZfkO9oAGJfUFThSS5CTWmc=
+MD5-Digest:	TJiNRoseq8E8iWC61Ba+Iw==
+
+Name:	com/overstar/ildar/ibank/servlets/ShowIBankServlet.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	gDTASulW8DWoeobXcO2+sDPDEm0=
+MD5-Digest:	vaxEAuOT+K5KomVsye5tJQ==
+
+Name:	com/overstar/ildar/ibank/model/SpecTransientAccount.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	Im/QAO+UFczwJTJnXob/280HPvc=
+MD5-Digest:	rZUY30gwWzvWpYCk605rlw==
+
+Name:	com/ibm/db/SQLStatement.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	NEY4WjtaRG2fVzkmTyaH/OSo+zQ=
+MD5-Digest:	/cTqpjx6ruR37Uy2wvzA8A==
+
+Name:	com/ibm/db/SQLStatementMetaData.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	g9I5ArarwoyXiYuwkYZcsZr4d+Y=
+MD5-Digest:	Km7FyZ9rN/p/nzwUYolEOA==
+
+Name:	javax/naming/spi/StateFactory.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	5YBAgW/JUMlxKrRPH8sk5QR3ckg=
+MD5-Digest:	t/cH92zgs+BeqLI/mIYJWw==
+
+Name:	com/ibm/ivj/db/uibeans/Statement.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	JujsVxYfmZkqAlzfntp43BhKO9E=
+MD5-Digest:	wDeJdjJbPfOyva2rOTpwPg==
+
+Name:	com/ibm/db/Statement.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	c7Mbp0hNQNmSkt7H566+lSbTcfY=
+MD5-Digest:	e9wEVz345RBNeM0iNV75bw==
+
+Name:	com/ibm/db/StatementAfterEventMulticaster.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	guJRE50HUWVbYTtCGPkwnk51BMY=
+MD5-Digest:	Q4nXq6YDt3waSN6nVR9X0Q==
+
+Name:	com/ibm/db/StatementAfterListener.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	6Gox9xkzna8Uzwf6uhZn/F5A1RE=
+MD5-Digest:	wL1Do7yi456J+cF10Qwo8w==
+
+Name:	com/ibm/db/StatementBeforeEventMulticaster.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	G/c97dSkbSpD9ad9wz7dYAQOYOA=
+MD5-Digest:	L1+IRMzBo5E2klB/1en78w==
+
+Name:	com/ibm/db/StatementBeforeListener.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	ySuwP+tS7Wdc323U3yiVfHlhGbU=
+MD5-Digest:	5UxAbRl1hWny+Btw+Nx/DA==
+
+Name:	com/ibm/db/StatementMetaData.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	33tnA/xwWjA9kq2rLsZoafUelx0=
+MD5-Digest:	SZmlGJlZVcgdufmGsChJ6Q==
+
+Name:	com/ibm/db/StatementResult.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	PJuY+N9Xx4vNPL6s/SNtofVLSOE=
+MD5-Digest:	X+nXWbBCCQYaenEzvdRFGQ==
+
+Name:	com/ibm/db/StatementResultAfterEventMulticaster.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	vNWWlbVLRWbhp4uLEZWV0C7GrPU=
+MD5-Digest:	1C80kZn6bDKpbSjHPHRq/Q==
+
+Name:	com/ibm/db/StatementResultAfterListener.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	TodG4Seg3odaUQtPJFsPSHHK3OY=
+MD5-Digest:	sbCoY5/iOkMiT+lPmwoEWA==
+
+Name:	com/ibm/db/StatementResultBeforeEventMulticaster.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	UbSqDN+81v6roMrIR6dvIVSV6Yo=
+MD5-Digest:	WVPXw42P7KnwO54T5ggnPw==
+
+Name:	com/ibm/db/StatementResultBeforeListener.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	aO3ZIYyi4Xti77huB5mrehvE1kY=
+MD5-Digest:	BuoV5rbRJvkxsoglkH0Flw==
+
+Name:	com/ibm/db/StatementResultRow.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	zdmy+RtOTyRCMUbgU/TPCKGcPUY=
+MD5-Digest:	+aL5rkWDhThQcOWqYNVoxA==
+
+Name:	com/ibm/db/StatementResultValueChangeEventMulticaster.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	YolhOoq5DjI86q8abOaiYWW6BK4=
+MD5-Digest:	2xGaqIsMLCvxGuVZChu+yw==
+
+Name:	com/ibm/db/StatementResultValueChangeListener.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	1f1y6gfDMTjL2b+BsZutKuBNfXU=
+MD5-Digest:	yMl6qC84HQKWJu2qPYPwzg==
+
+Name:	com/overstar/ildar/ibank/servlets/StopServlet.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	semYapfzRSrdTJM7DgJGEQ6JvRs=
+MD5-Digest:	WrpvDmxD+e9EVwfZBgTqrg==
+
+Name:	javax/naming/StringRefAddr.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	oDPkI4tmazLJzvKTFczQ788+mGA=
+MD5-Digest:	CR9g5YgdHAaoGyi6JStOhw==
+
+Name:	com/ibm/ivj/db/uibeans/TableModelEventMulticaster.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	45ZqnIRgKFBDbMQMRjdJVpbpMqY=
+MD5-Digest:	Cd1jwCJ21hHy+1gKc4RfYQ==
+
+Name:	com/overstar/ildar/ibank/model/TransientAccount.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	88kkHbS4GvswRWVRpdxNZFbAzIg=
+MD5-Digest:	PZNbyqtwVEPhU8rrrzbzJw==
+
+Name:	com/ibm/db/Utilities.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	gBN+IZ4acVbDEMFu096bmrGIpKA=
+MD5-Digest:	V7dLV7JpjghzhOydiPvhOA==
+
+Name:	com/ibm/ivj/db/uibeans/Utilities.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	dcJrM8eKPTtDboY258vAv9cfBXI=
+MD5-Digest:	2M54U2KXsksWNqGB7iujYA==
+
+Name:	com/ibm/db/base/UtilitiesBase.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	Mfxv+C1WUR2/zLIT22gzsRP2/NQ=
+MD5-Digest:	kLZ+vv7a3odSkE/YMTsYZA==
+
+Name:	com/sun/naming/internal/VersionHelper.class
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	dxsV6EutSh0aAnseLbECKi3cm9w=
+MD5-Digest:	G/Js3sKXUyAomiu6fDQx0Q==
+
+Name:	com/overstar/ildar/ibank/model/Bank.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	CoAhzu51l02rGVCUgIj8lB8E7Rw=
+MD5-Digest:	GsAgrW70uCuPf5VB8KZV+g==
+
+Name:	com/overstar/ildar/ibank/model/BankAccount.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	YyLPCaTt9DJrfR0EUjQj1/3Hjs0=
+MD5-Digest:	Ux4bcmORVzhSnBv5YIjWlQ==
+
+Name:	com/overstar/ildar/ibank/model/BankAccountDAB.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	PTm7RQoxf/s/EqG+DJqPLylWp9o=
+MD5-Digest:	K7/3YglowAvjosH1HztNSg==
+
+Name:	com/overstar/ildar/ibank/model/BankAccountData.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	38gKc3FZ7gS/pSfof4XUD678WuU=
+MD5-Digest:	wxb8UCoQyHWBP5Yb9+BHtQ==
+
+Name:	com/overstar/ildar/ibank/model/BankAccountNotFoundException.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	KW4tW6yDqfFdkFAz0Jerrn4hMbU=
+MD5-Digest:	6RfkuQ6Wk5KcJZrkMqrclA==
+
+Name:	com/overstar/ildar/ibank/model/BankDAB.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	n1Dj+JQpNUYZhc8P3wKVHyNoTnY=
+MD5-Digest:	y2Vqhqh1Q+8yBVpvG9NdxQ==
+
+Name:	com/overstar/ildar/ibank/model/BankNotFoundException.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	v+QzN+RW0wE+6N57wec22hQpaQI=
+MD5-Digest:	HfgmLBKKJ6zYncSv7mxffQ==
+
+Name:	javax/naming/CannotProceedException.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/overstar/ildar/ibank/servlets/ChooseActionServlet.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	/8ANGOrDBioxICSxWm618rK9xZI=
+MD5-Digest:	TF9ewzsQkx9dohc6rOi8hw==
+
+Name:	com/overstar/ildar/ibank/servlets/ChooseDocumentActionServlet.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	OtQb48q8gtLtTGEOYKnIoG51F60=
+MD5-Digest:	T9vBzT+zCCH4uUiWonSBFw==
+
+Name:	com/overstar/ildar/ibank/servlets/ChooseDocumentsServlet.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	58MCMBAP/cKLthyx5WJXUVpngeU=
+MD5-Digest:	edMBcCKM6nq68NiFHTvZcA==
+
+Name:	com/overstar/ildar/ibank/servlets/ChooseRecipientActionServlet.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	zifPTQOB0dssudOdXU8ke9Y83X4=
+MD5-Digest:	PWnJs1fR0uC/bXfUcRdEwQ==
+
+Name:	com/overstar/ildar/ibank/servlets/ChooseRecipientServlet.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	jh0FUdI+FkCVLU//tiWaRFaWBb8=
+MD5-Digest:	JmINc98thPX0m/0jnan3Kw==
+
+Name:	javax/naming/CompositeName.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	javax/naming/ConfigurationException.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	javax/naming/Context.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	javax/naming/spi/ContinuationContext.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/ivj/db/uibeans/DataAfterEventMulticaster.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/ivj/db/uibeans/DataAfterListener.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/ivj/db/uibeans/DatabaseAccess.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/base/DatabaseBinaryField.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/base/DatabaseBLOBField.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/base/DatabaseBooleanField.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/base/DatabaseCLOBField.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/base/DatabaseCompoundType.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/base/DatabaseConnection.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/DatabaseConnection.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/DatabaseConnectionAfterEventMulticaster.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/DatabaseConnectionAfterListener.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/DatabaseConnectionBeforeEventMulticaster.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/DatabaseConnectionBeforeListener.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/base/DatabaseConnectionSpec.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/base/DatabaseDataLinkField.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/base/DatabaseDateField.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/base/DatabaseDecimalField.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/base/DatabaseDoubleField.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/base/DatabaseFloatField.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/base/DatabaseIntegerField.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/base/DatabaseLogonSpec.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/base/DatabaseLongIntegerField.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/base/DatabaseObjectField.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/base/DatabaseQuerySpec.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/base/DatabaseResultTable.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/base/DatabaseResultTableParent.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/base/DatabaseRow.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/base/DatabaseShortIntegerField.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/base/DatabaseStatement.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/base/DatabaseStringField.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/base/DatabaseTimeField.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/base/DatabaseTimestampField.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/base/DatabaseTypeField.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/ivj/db/uibeans/DataBeforeEventMulticaster.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/ivj/db/uibeans/DataBeforeListener.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/DataEvent.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/DataException.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/base/DataException.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/base/DataRuntimeException.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/DataRuntimeException.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	javax/sql/DataSource.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	javax/naming/directory/DirContext.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/overstar/ildar/ibank/model/Document.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	ogoZw6Z34y5i+3iRN380GbkshpY=
+MD5-Digest:	IIyoqFuR6dP0aBhtsW34QQ==
+
+Name:	com/sun/naming/internal/FactoryEnumeration.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/overstar/ildar/ibank/model/IBank.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	G0t1ShThs8zy85c3mGtfegCO9XI=
+MD5-Digest:	aaKOHP1pAtc8epOaHLAbaw==
+
+Name:	com/ibm/db/base/IBMDBBaseMessages.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/IBMDBMessages.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/ivj/db/uibeans/IBMIVJDBMessages.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/overstar/ildar/ibank/model/IClient.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	Gbm+5YR7pyzAJwcoHrzL1/8dxJU=
+MD5-Digest:	QQ0Yn38tOXgHdFjDS9mUeg==
+
+Name:	com/overstar/ildar/ibank/model/IClientDAB.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	i2MMPRS2oo3QDv1NETmG7aFkolU=
+MD5-Digest:	xXR0ECk4fRNJv93spsT25Q==
+
+Name:	com/overstar/ildar/ibank/model/IClientNotFoundException.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	b6SXHTrQP0pI3JvbkZQavoSNd9Q=
+MD5-Digest:	FxTneXdmx8UtbZjmS5UGzw==
+
+Name:	com/overstar/ildar/ibank/model/IClientReader.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	GIPLGD5k1OnwXjbt1EFI02yt8tk=
+MD5-Digest:	KF6bz1N9npz8JYR5k+Dj0w==
+
+Name:	javax/naming/InitialContext.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	javax/naming/spi/InitialContextFactory.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	javax/naming/spi/InitialContextFactoryBuilder.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/overstar/ildar/ibank/servlets/InsertIClientServlet.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	0mE50ruWy9zYs0lYTgHpMUQI1Q8=
+MD5-Digest:	i/FRRCoF+VZKtxlSLWGqoA==
+
+Name:	com/overstar/ildar/ibank/model/InvalidIClientException.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	MsDSx/dzFhch7LfMbSYRA/LmR44=
+MD5-Digest:	7CQjTBYiCN4f+cB9AVGz6Q==
+
+Name:	javax/naming/InvalidNameException.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/overstar/ildar/ibank/model/InvalidPINException.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	HJqhnPmOB4NIYAeOeR8IsJbD8MY=
+MD5-Digest:	0krfpB1/UuyNwIy1UB80RA==
+
+Name:	com/ibm/db/base/JDBCConnectionManager.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	javax/naming/ldap/LdapContext.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/LogonDialog.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/overstar/ildar/ibank/servlets/LongLivedCookie.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	X2SemTdAsDWmT8MwiMlerA+8j2M=
+MD5-Digest:	v5UBg/chSLWXWTzophh/dA==
+
+Name:	com/ibm/ivj/db/uibeans/Modify.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/overstar/ildar/ibank/model/Money.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	inKwezGL4R/8xdI32LRtPryCN3I=
+MD5-Digest:	YdoToOjb+8ssUpcLYT8lag==
+
+Name:	javax/naming/Name.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	javax/naming/NameImpl.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	javax/naming/NameImplEnumerator.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	javax/naming/NameParser.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	javax/naming/NamingEnumeration.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	javax/naming/NamingException.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	javax/naming/spi/NamingManager.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	javax/naming/NoInitialContextException.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	javax/naming/spi/ObjectFactory.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	javax/naming/spi/ObjectFactoryBuilder.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/base/OrderedHashtable.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/overstar/ildar/ibank/model/Payment.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	jfdUwdyhkW8yHScSqyA+hcCphOk=
+MD5-Digest:	aEaGD6UkNMU9/hreuCOG8Q==
+
+Name:	com/overstar/ildar/ibank/model/PaymentDAB.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	ASscQVMDhbid+OkCOntMMxhAG/Y=
+MD5-Digest:	akKL+KlsJnLJPrd6vUsScQ==
+
+Name:	com/overstar/ildar/ibank/model/PaymentNotFoundException.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	smisgb+wA7jtbQNOJofU2+ZQhqw=
+MD5-Digest:	J98w9WVhDoxeodxAlDfz5Q==
+
+Name:	com/overstar/ildar/ibank/model/PersistenceException.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	+wfAXcjswOw9622I5R1KX4PjNCo=
+MD5-Digest:	WLgaaRQ8oO/D2nw60UEhuA==
+
+Name:	com/overstar/ildar/ibank/model/PrimaryKey.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	uIN0ssyTme9W9S8IVQd8Amt7pV8=
+MD5-Digest:	9YAu82Bi6ZDAZ+rTwM1tOQ==
+
+Name:	com/overstar/ildar/ibank/model/PrimaryKeyTwo.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	E08WuL2WjRB5wDUkgcpFZTlN4t4=
+MD5-Digest:	Kv7ePKRhv6+SpC0Su7quQw==
+
+Name:	com/ibm/ivj/db/uibeans/Query.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/overstar/ildar/ibank/model/Recipient.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	P9Oii+hmwKEYzEKPoSLGBOfBE1A=
+MD5-Digest:	OtgvsmTcI4NSmaYEEgXtHw==
+
+Name:	com/overstar/ildar/ibank/model/RecipientDAB.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	zkB8kMHPieDY1I7vPjRQRTftHZM=
+MD5-Digest:	Z8/TvsZrPvG3wBiyDCqeJg==
+
+Name:	com/overstar/ildar/ibank/model/RecipientNotFoundException.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	oKEypjCDOk1RAPyeafyssoDfeyc=
+MD5-Digest:	DiWgBkMWqtYwx7hibrA4nw==
+
+Name:	javax/naming/RefAddr.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	javax/naming/Reference.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	javax/naming/Referenceable.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/base/RegisteredConnection.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	javax/naming/spi/Resolver.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	javax/naming/spi/ResolveResult.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/sun/naming/internal/ResourceManager.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/overstar/ildar/ibank/model/RunningAccount.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	CFxZ4QtpnX3hWQcolQ6NFHKUVnU=
+MD5-Digest:	sBeHkNgsPRzxpffVWe0wkQ==
+
+Name:	com/ibm/ivj/db/uibeans/Select.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/SelectResult.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/SelectStatement.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/overstar/ildar/ibank/servlets/ServletUtilities.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	JnpBXnhEFMFM+Kbsdr7HrCShQ1c=
+MD5-Digest:	DNSpCFUIRpWdLB576ozjbA==
+
+Name:	com/overstar/ildar/ibank/model/SettlementAccount.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	FSTzo8LcLFpQa07lc7iJOJ9Ol24=
+MD5-Digest:	pmsBY0acKLL1D31SP+BmMw==
+
+Name:	com/overstar/ildar/ibank/servlets/ShowIBankServlet.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	6eswtU31+ndmOGeNQerQPGnl5AE=
+MD5-Digest:	2F+wSzOuPYIWdno7x6YvPA==
+
+Name:	com/overstar/ildar/ibank/model/SpecTransientAccount.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	yFXhQQ5Wph3dgj/kjG52teFsyts=
+MD5-Digest:	5nnwW8RfgYRF/McRxdOCYg==
+
+Name:	com/ibm/db/SQLStatement.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/SQLStatementMetaData.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	javax/naming/spi/StateFactory.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/ivj/db/uibeans/Statement.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/Statement.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/StatementAfterEventMulticaster.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/StatementAfterListener.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/StatementBeforeEventMulticaster.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/StatementBeforeListener.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/StatementMetaData.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/StatementResult.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/StatementResultAfterEventMulticaster.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/StatementResultAfterListener.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/StatementResultBeforeEventMulticaster.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/StatementResultBeforeListener.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/StatementResultRow.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/StatementResultValueChangeEventMulticaster.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/StatementResultValueChangeListener.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/overstar/ildar/ibank/servlets/StopServlet.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	eQdbY31Q4V+De9rwoaii4goMjlA=
+MD5-Digest:	9UK4KXdpDqyyK6n2v8lt6Q==
+
+Name:	javax/naming/StringRefAddr.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/ivj/db/uibeans/TableModelEventMulticaster.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/overstar/ildar/ibank/model/TransientAccount.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	x2Ji6GY45pxPW1wVa13bkwZ4sGs=
+MD5-Digest:	ujZy6YxCBt1hfq1zlB57gg==
+
+Name:	com/ibm/db/Utilities.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/ivj/db/uibeans/Utilities.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db/base/UtilitiesBase.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/sun/naming/internal/VersionHelper.java
+Java-Bean:	False
+Digest-Algorithms:	SHA, MD5
+SHA-Digest:	
+MD5-Digest:	
+
+Name:	com/ibm/db
+Sealed:	False
+Name:	com/ibm/db/base
+Sealed:	False
+Name:	com/ibm/ivj/db/uibeans
+Sealed:	False
+Name:	com/overstar/ildar/ibank/model
+Sealed:	True
+Name:	com/overstar/ildar/ibank/servlets
+Sealed:	True
+Name:	com/sun/naming/internal
+Sealed:	False
+Name:	javax/naming
+Sealed:	False
+Name:	javax/naming/directory
+Sealed:	False
+Name:	javax/naming/ldap
+Sealed:	False
+Name:	javax/naming/spi
+Sealed:	False
+Name:	javax/sql
+Sealed:	False

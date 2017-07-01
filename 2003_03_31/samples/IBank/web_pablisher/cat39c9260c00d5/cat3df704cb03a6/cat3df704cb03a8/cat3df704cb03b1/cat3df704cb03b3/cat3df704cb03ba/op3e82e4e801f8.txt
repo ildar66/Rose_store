@@ -1,0 +1,4 @@
+Insert the method's description here.
+Creation date: (18.09.2002 17:00:57)
+@return com.overstar.ildar.ibank.model.IClient
+

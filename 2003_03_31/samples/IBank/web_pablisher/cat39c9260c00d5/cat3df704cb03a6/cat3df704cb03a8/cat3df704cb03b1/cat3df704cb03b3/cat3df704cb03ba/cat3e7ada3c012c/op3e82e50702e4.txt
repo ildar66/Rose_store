@@ -1,0 +1,4 @@
+Insert the method's description here.
+Creation date: (13.02.2003 15:54:36)
+@param aAccreditive com.overstar.ildar.ibank.model.documents.Accreditive
+@exception com.overstar.ildar.ibank.model.exceptions.PersistenceException The exception description.

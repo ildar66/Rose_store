@@ -1,0 +1,4 @@
+Insert the method's description here.
+Creation date: (18.10.2002 16:11:02)
+@param newDocumentsAll java.util.Vector
+

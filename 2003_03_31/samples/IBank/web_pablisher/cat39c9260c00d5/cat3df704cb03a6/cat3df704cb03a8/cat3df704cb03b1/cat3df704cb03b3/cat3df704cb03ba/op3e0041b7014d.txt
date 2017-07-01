@@ -1,0 +1,5 @@
+Insert the method's description here.
+Creation date: (30.10.2002 15:00:31)
+@param anId1
+@param anId2
+

@@ -1,0 +1,4 @@
+PrimaryKey class to be used for instances of type BankAccount.
+@param anBranch_id java.lang.String - '”никальный идентификатор банка или 
+филиала, зарегистрированных в системе';
+@param anAccount java.lang.String - '—чет клиента';

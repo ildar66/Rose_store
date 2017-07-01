@@ -1,0 +1,8 @@
+Enter the PIN code for the current IClient.
+If incorrect, an InvalidPINException is thrown.
+NOTE: The case when there too many attempts to guess the PIN is not implemented.
+Creation date: (20.09.2002 11:55:52)
+@param aPINStr java.lang.String
+@exception com.overstar.ildar.ibank.model.PersistenceException The exception description.
+@exception java.lang.IllegalStateException The exception description.
+@exception com.overstar.ildar.ibank.model.InvalidPINException The exception description.

@@ -1,0 +1,10 @@
+This finder will search for the IClient with the given
+primary key and return it. 
+Creation date: (12.09.2002 11:31:09)
+@return com.overstar.ildar.ibank.model.IClient
+@param anId com.overstar.ildar.ibank.model.IClient.IClientPK
+@return IClient
+@throws com.overstar.ildar.ibank.model.PersistenceException
+@exception com.overstar.ildar.ibank.model.PersistenceException The exception 
+description.
+

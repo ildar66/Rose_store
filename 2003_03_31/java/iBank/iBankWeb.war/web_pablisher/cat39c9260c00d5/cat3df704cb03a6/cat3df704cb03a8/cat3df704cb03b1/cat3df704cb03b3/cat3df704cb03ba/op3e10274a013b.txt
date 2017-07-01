@@ -1,0 +1,4 @@
+Insert the method's description here.
+Creation date: (13.11.2002 17:01:59)
+@return java.lang.String
+@param anDocument com.overstar.ildar.ibank.model.Document

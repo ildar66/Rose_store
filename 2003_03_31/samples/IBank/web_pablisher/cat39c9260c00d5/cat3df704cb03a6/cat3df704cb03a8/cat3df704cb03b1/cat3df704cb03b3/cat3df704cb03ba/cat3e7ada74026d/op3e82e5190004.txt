@@ -1,0 +1,4 @@
+Insert the method's description here.
+Creation date: (16.09.2002 16:59:29)
+@param newBill_corr java.lang.String
+
